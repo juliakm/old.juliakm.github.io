@@ -2,6 +2,9 @@
 layout: post
 title: "Paging NikLP: Deciding between CCK Fields and Taxonomy"
 date: 2008-10-16 19:38:42
+category: drupal
+redirect_from:
+  - /paging-niklp-deciding-between-cck-fields-and-taxonomy/
 ---
 
 I'm trying to decide between using a CCK field or taxonomy to classify content on a new site. We plan to have various node types (video, podcasts, forum topics, news articles, courses, etc.) and want to be able to dynamically pull together all nodes with the same tag in a page. There will be dynamic pages for both universities and topics. The topics will have a hierarchy. For example:

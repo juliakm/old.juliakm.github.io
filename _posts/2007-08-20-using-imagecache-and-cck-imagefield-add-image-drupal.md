@@ -2,6 +2,9 @@
 layout: post
 title: "Using Imagecache and CCK Imagefield to Add an Image in Drupal"
 date: 2007-08-20 20:11:17
+category: drupal
+redirect_from:
+  - /using-imagecache-and-cck-imagefield-add-image-drupal/
 ---
 
 Figuring out how to get Drupal's [imagecache module][1] to work with [CCK's imagefield][2] can about as fun as a trip to the dentist. Although I found a lot of articles analyzing the benefits of using Image vs. CCK imagefield, I could not find one source with clear instructions on how to implement imagefield with imagecache. So, here's my stab at an explanation of how to get imagecache to work with imagefield.

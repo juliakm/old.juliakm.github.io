@@ -2,6 +2,9 @@
 layout: post
 title: "Exploring Drupal One Module at a Time"
 date: 2007-06-24 21:56:20
+category: drupal
+redirect_from:
+  - /exploring-drupal-one-module-time/
 ---
 
 Although Wordpress has served me well, I decided that it might be fun to try and rebuild my site using Drupal. For the most part, switching has been easy. I started off with a version on my local computer using MAMP and then transitioned to my Dreamhost account. Dreamhost's databases are slow running Wordpress, and seem to be just as slow running Drupal. But, I didn't expect a speedier site with Drupal. After playing around with 

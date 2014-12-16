@@ -2,6 +2,9 @@
 layout: post
 title: "Javascript Blogroll Randomizer"
 date: 2007-08-15 19:50:32
+redirect_from:
+  - /javascript-blogroll-randomizer/
+
 ---
 
 [Eric][1] uses Blogger and wanted to have a random list of 10 blogs from his blogroll display each time someone visited his blog. Since Blogger doesn't let its members upload PHP files, I used the following Javascript to create a random blog listing for him. The code is a slightly modified version of what I found [here][2]. 

@@ -2,6 +2,9 @@
 layout: post
 title: "How to Decide Between Using Taxonomy Terms and a CCK Field to Classify Content on a Drupal Site"
 date: 2009-03-19 13:29:29
+category: drupal
+redirect_from:
+  - /how-decide-between-using-taxonomy-terms-and-cck-field-classify-content-drupal-site/
 ---
 
 I often have a hard time deciding whether to use a <span class="caps"><span class="caps">CCK</span></span> field or the <a class="zem_slink" href="http://en.wikipedia.org/wiki/Taxonomy" title="Taxonomy" rel="wikipedia">taxonomy</a> module when building <a class="zem_slink" href="http://drupal.org" title="Drupal" rel="homepage">Drupal</a> sites. At Drupalcon, I was glad to see that I am not alone in my confusion. At the Drupalcon Drupal Taxonomy Revisted session, I finally started to understand the use case for each.

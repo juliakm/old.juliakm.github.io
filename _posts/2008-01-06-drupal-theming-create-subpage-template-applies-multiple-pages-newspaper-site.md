@@ -2,6 +2,9 @@
 layout: post
 title: "Drupal Theming: Create a Subpage Template that Applies to Multiple Pages on a Newspaper Site"
 date: 2008-01-06 12:13:31
+category: drupal
+redirect_from:
+  - /drupal-theming-create-subpage-template-applies-multiple-pages-newspaper-site/
 ---
 
 While working on a new Drupal site, I needed to set the same "subsection" template for multiple pages. The site is for an online newspaper and I wanted to use a new template for each of the section homepages. A good example of a similar approach is on CNN.com, where the [US section page][1] looks different than both the [homepage][2] and the [article pages][3]. In past projects, I've confused myself with template names. Six months later, I have trouble remembering what page-node-1432.tpl.php actually controls. So, this time, I set out to have better named template files and to have the same template file control multiple pages. So far, this has made it easier for both the project graphic designer and I. Here's the code that I put in my template.php file to make page-subsection.tpl.php the template file for node/17658, node/17638, and node/17628. `

@@ -2,6 +2,7 @@
 layout: post
 title: "Drupalcamp Atlanta Presentation: Why do Drupal Projects Fail?"
 date: 2009-09-20 14:53:23
+category: drupal
 ---
 
 As co-organizer of the [Triangle Drupal group][1], I've met some great people who have had some terrible experiences with Drupal. At the same time, I have become increasingly frustrated by my inability to accurately predict what Drupal projects will succeed and which will fail. For the past few months, I've been thinking about how I can try and more accurately predict what Drupal projects will be successful. Instead of only drawing from my own experiences and anecdotal evidence, I thought it would be helpful to put together a survey. I [distributed the survey via Twitter][2] and had about 25 responses. While this is by no means a scientific study, I do think that others might find the results helpful. I summarized the results yesterday when I presented at Drupalcamp Atlanta yesterday on, "Why do Drupal Projects Fail?: Evaluating Success Factors and When to Use Drupal." [You can find the slides here][3]. For those of you who don't have time to read the slides (or watch the video which Drupalcamp Atlanta should have up soon), here are my key findings. 

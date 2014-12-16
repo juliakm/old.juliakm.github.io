@@ -2,6 +2,10 @@
 layout: post
 title: "Drupal Permissions Issues: A Debugging Checklist"
 date: 2008-01-12 15:15:24
+category: drupal
+redirect_from:
+  - /drupal-permissions-issues-debugging-checklist/
+
 ---
 
 Every once in awhile, when working on a Drupal site, my content either disappears or I cannot log-in. At this point, I usually get rather angry and start thinking of worse case scenarios. What if I can never log into my site again? What if anonymous users can't read articles? In a rare moment of clarity, I put together the following Drupal permissions debugging checklist. I hope that you find it as useful as I have. 

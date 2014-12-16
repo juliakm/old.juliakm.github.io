@@ -2,6 +2,9 @@
 layout: post
 title: "How to Move a Drupal Site to a New Host Without Going Crazy"
 date: 2009-05-25 12:09:32
+category: drupal
+redirect_from:
+  - /how-move-drupal-site-new-host-without-going-crazy/
 ---
 
 <h3 id="preparation">

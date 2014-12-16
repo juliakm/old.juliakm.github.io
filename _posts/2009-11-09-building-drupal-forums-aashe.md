@@ -2,6 +2,9 @@
 layout: post
 title: "Building Drupal Forums at AASHE"
 date: 2009-11-09 08:47:09
+category: drupal
+redirect_from:
+  - /building-drupal-forums-aashe/
 ---
 
 The idea of building a Campus Sustainability Forum has been kicking around [my organization][1] for years. When the organization was choosing a CMS about three years ago, one of the major reasons we went with Drupal was the forum integration. 

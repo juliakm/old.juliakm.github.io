@@ -2,6 +2,9 @@
 layout: post
 title: "Drupal: A Love Story"
 date: 2009-04-23 09:04:27
+category: drupal
+redirect_from:
+  - /drupal-love-story/
 ---
 
 I presented on Drupal at UNC's An Introduction to Content Management Systems workshop last week. The presentation is geared to people trying to decide between Drupal, Joomla, and Wordpress. I hope that I swayed a few to the Drupal camp! 
