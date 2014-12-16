@@ -3,15 +3,24 @@ layout: default
 title: Home
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
+
+<div id="home">
+<h1>Blog Posts</h1>
+<ul class="posts">
+{% for post in site.posts limit:5 %}
+<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
 </ul>
 
-<!--<div class="posts">
+<h1>Presentations</h1>
+<ul class="posts">
+<li><a href="http://www.slideshare.net/JuliaKM/nc-tech4-goodpresentation2014up">NTC 2014 - Welcome to the Website Emergency Room: Find and Pinpoint Problems When Everything Falls Apart</a></li>
+<li><a href="http://www.nctech4good.org/sessions/welcome-website-emergency-room-find-and-pinpoint-problems-when-everything-falls-apart">NCTech4Good 2014</a></li>
+<li><a href="http://cms-workshop.pbworks.com/w/page/14485599/FrontPage">UNC's An Introduction to Content Management Systems workshop</a></li>
+</ul>
+
+<!--<h1>Recentish</h1>
+<div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
@@ -26,6 +35,7 @@ title: Home
   </div>
   {% endfor %}
 </div>
+
 
 <div class="pagination">
   {% if paginator.next_page %}
