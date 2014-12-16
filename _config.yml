@@ -10,8 +10,8 @@ relative_permalinks: true
 
 # Setup
 title:            JuliaKM
-tagline:          'A collection of odd things'
-description:      'A collection of odd things. You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.'
+tagline:          'Julia Kulla-Mader&#39;s Home on the Interweb'
+description:      'You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.'
 url:              http://juliakm.github.io
 baseurl:          /
 

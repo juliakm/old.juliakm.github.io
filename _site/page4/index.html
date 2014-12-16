@@ -11,7 +11,7 @@
 
   <title>
     
-      JuliaKM &middot; Julia Kulla-Mader&apos;s Home on the Interweb
+      JuliaKM &middot; Julia Kulla-Mader&#39;s Home on the Interweb
     
   </title>
 
@@ -39,7 +39,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>Julia Kulla-Mader&apos;s Home on the Interweb. You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.</p>
+    <p>You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.</p>
   </div>
 
   <nav class="sidebar-nav">
@@ -63,6 +63,12 @@
         
       
     
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/blog/">Blog</a>
+        
       
     
       
@@ -98,132 +104,30 @@
         <div class="container">
           <h3 class="masthead-title">
             <a href="/" title="Home">JuliaKM</a>
-            <small>Julia Kulla-Mader&apos;s Home on the Interweb</small>
+            <small>Julia Kulla-Mader&#39;s Home on the Interweb</small>
           </h3>
         </div>
       </div>
 
       <div class="container content">
-        <div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2007/08/20/using-imagecache-and-cck-imagefield-add-image-drupal/">
-        Using Imagecache and CCK Imagefield to Add an Image in Drupal
-      </a>
-    </h1>
+        <h1>Currently</h1>
+<ul class="posts">
+<li>Work at <a href="http://jacksonriver.com">Jackson River</a></li>
+<li>Live in <a href="http://durhamnc.gov/Pages/Home.aspx">Durham, NC</a> with <a href="https://www.flickr.com/photos/juliakm/15915433431/">my family</a></li>
+<li>Sporatically <a href="http://juliagoolia.tumblr.com">blog</a></a>
+</ul>
 
-    <span class="post-date">20 Aug 2007</span>
+<h1>Previously</h1>
+<ul class="posts">
+<li><a href="http://www.slideshare.net/JuliaKM/nc-tech4-goodpresentation2014up">Presented at NTC 2014</a></li>
+<li><a href="http://www.nctech4good.org/sessions/welcome-website-emergency-room-find-and-pinpoint-problems-when-everything-falls-apart">Presented at NCTech4Good 2014</a></li>
+</ul>
 
-    <p>Figuring out how to get Drupal&#39;s <a href="http://drupal.org/project/imagecache">imagecache module</a> to work with <a href="http://drupal.org/project/imagefield">CCK&#39;s imagefield</a> can about as fun as a trip to the dentist. Although I found a lot of articles analyzing the benefits of using Image vs. CCK imagefield, I could not find one source with clear instructions on how to implement imagefield with imagecache. So, here&#39;s my stab at an explanation of how to get imagecache to work with imagefield.</p>
-
-<ol>
-<li>Install and activate CCK, imagefield, and imagecache. Go to Admin &gt; Content types and select the content type that you want to add an image field to. Click on &quot;Add field&quot; to add an image field. Then, give your field a title, select Image and create your field. The name of my field is &quot;related_images.&quot;</li>
-</ol>
-
-<p><img src="/resources/u1/createfield.png" alt="create cck image field" height="205" width="278" /> 
-2. Set your imagecache presets at Site Building &gt; Image cache. My preset is has the namespace &quot;homepage&quot; and is set to resize with a width and height of 100. </p>
-
-<p><img src="/resources/u1/namespace.png" alt="drupal preset namespace" height="321" width="500" /> 
-3. Go back to the content type that you added a CCK image to by selecting Content Management &gt; Content types. Click on the name of the content type you previously added an image to. In the content type&#39;s menu, select &quot;Display fields.&quot;</p>
-
-<p><img src="/resources/u1/displayfields.png" alt="display cck image fields" height="94" width="415" /> 
-4. Look to the right of the listing for the image field you created. Set the teaser and body to the namespace you set in step 2. My namespace is &quot;homepage.&quot; </p>
-
-<p><img src="/resources/u1/chooselook.png" alt="set display of cck image" height="66" width="500" /> 
-5. Add a new article of content using the content type that has your new image field. Upload an image as part of the post and make sure that your image displays at the width and height you set in &quot;Display fields.&quot;</p>
-
-<ol>
-<li>If you want to have your image display in a template such as node.tpl.php, the following code will print the image and image title for a CCK image field called field_related_images: </li>
-</ol>
-
-<p>`
-&lt;?php print $node-&gt;field<em>related</em>images[0][&#39;view&#39;]; ?&gt; </p>
-
-<p>&lt;?php print $node-&gt;field<em>related</em>images[0][&#39;title&#39;];  ?&gt;
-`</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2007/08/15/javascript-blogroll-randomizer/">
-        Javascript Blogroll Randomizer
-      </a>
-    </h1>
-
-    <span class="post-date">15 Aug 2007</span>
-
-    <p><a href="http://chessconfessions.blogspot.com/">Eric</a> uses Blogger and wanted to have a random list of 10 blogs from his blogroll display each time someone visited his blog. Since Blogger doesn&#39;t let its members upload PHP files, I used the following Javascript to create a random blog listing for him. The code is a slightly modified version of what I found <a href="http://www.wdil.org/reuseables/randomizer-javascript-menu">here</a>. </p>
-
-<p><strong>8/28/2007 Update:</strong> Be sure to include the backslashes before single quotes and apostrophes. <a href="http://www.chickengirl.net/">Chicken Girl</a> wrote a great explanation of why this is important at <a href="https://www.blogger.com/comment.g?blogID=1704170106558126102&amp;postID=2163460307242887737">Cranky Fitness</a>. `</p>
-
-<p>`</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2007/07/25/remembering-lavinia-thomson/">
-        Remembering Lavinia Thomson
-      </a>
-    </h1>
-
-    <span class="post-date">25 Jul 2007</span>
-
-    <p>Eric and I have spent the last couple days in New Hampshire mourning the loss of his grandmother, <a href="http://www.townonline.com/amesbury/obituaries/x113133470">Lavinia Thomson</a>. During the service, the topic of community was frequently mentioned. Lavinia, who the family called Nana, lived on a main road and could often be seen waving from a chair on her lawn at passing cars and chatting with neighbors. It is amazing to think that this small act brightened the day of so many passing motorists. At the service, someone mentioned that Lavinia was one of the the last of an era that valued community and kindness. </p>
-
-<blockquote>
-<p>She will be remembered as a wonderful mother, mother-in-law, nana and friend. She loved to sing, dance and most of all spend time with her family. She always had a smile and a friendly word for everyone.</p>
-</blockquote>
-
-<p>I feel lucky that I had the opportunity to meet Nana. She will be missed.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2007/06/30/getting-drupals-search-module-work-dreamhost/">
-        Getting Drupal's Search Module to Work on Dreamhost
-      </a>
-    </h1>
-
-    <span class="post-date">30 Jun 2007</span>
-
-    <p>One of my first frustrations with Drupal was that I could not seem to get the search module to work. I searched my new Drupal site again and again and was irked to find that each search returned the unhelpful response, &quot;Your search yielded no results.&quot; After searching the forums, I realized out that the search module only works if you have set up a cron job on your server for cron.php. The easiest way to do this via Dreamhost is to go to the control panel (panel.dreamhost.com). Here are the steps to take once there: 1. Click on &quot;Goodies&quot; on the left navigation menu of your control panel. At the bottom of the new menu that just appeared, select &quot;Crob Jobs.&quot; 2. Click &quot;Add New Cron Job.&quot; 3. On the next screen, create a title for your cron job such as drupancron and enter the following code in the &quot;Command to Run&quot; box: <code>
-wget http://www.yoursite.com/cron.php
-</code> Make sure to replace &quot;yoursite&quot; with the name of your site. 4. Mark the job as &quot;Enabled&quot; and select how frequently your cron job should run. If you post infrequently, once a day should be sufficient. Otherwise, you should consider running the job hourly. 5. Wait an hour or a day to make sure that your cron job is running effectively by searching for a term that you know will have search results.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2007/06/24/exploring-drupal-one-module-time/">
-        Exploring Drupal One Module at a Time
-      </a>
-    </h1>
-
-    <span class="post-date">24 Jun 2007</span>
-
-    <p>Although Wordpress has served me well, I decided that it might be fun to try and rebuild my site using Drupal. For the most part, switching has been easy. I started off with a version on my local computer using MAMP and then transitioned to my Dreamhost account. Dreamhost&#39;s databases are slow running Wordpress, and seem to be just as slow running Drupal. But, I didn&#39;t expect a speedier site with Drupal. After playing around with </p>
-
-<p><a href="http://drupal.org/project/zen">Zen</a>, I decided to start with the <a href="http://drupal.org/project/foundation">Foundation theme</a>. I was to reproduce my old Wordpress design in about 4 hours. That theme was a very modified version of <a href="http://www.headsetoptions.org/">Skuteczni</a>. The hardest part of figuring out Drupal was knowing what modules to install. When I first installed Wordpress, I found that I could put together a decent blog without having to install a bunch of plugins. With Drupal, doing almost anything requires a module. The advantage of this is that the core Drupal download is quite small. The disadvantage is that figuring out what modules to install requires quite a bit of searching the forums. Additionally, one of the strange features of Drupal is that the modules that come with your first installation are not all enabled. The core installation is divided into required and optional modules. However, a lot of the typical &quot;blog&quot; features are in the optional modules. For example, you need to turn on the Aggregator module to generate RSS feeds. In addition to enabling a number of optional modules (Blog, Comment, Menu, Path, and Search), I downloaded a bunch of modules. One of the first modules I downloaded was wp2drupal, which I would not recommend using. The wp2drupal module is designed to copy Wordpress posts into your Drupal site. Although I eventually got this module working, in the process I ran into a number of blank screens. From what I read on the forums, it seems like wp2drupal is designed for Drupal 4.7 and that getting it to work on Drupal 5 is not a seamless process. I also downloaded CCK and Views. CCK lets you define your own content types and is a fantastic resource. Views is useful for creating specific lists such as a list of most recent posts. I am sure that Views does much more, but I have not fully delved into it yet. I haven&#39;t added any Views to my site yet, but I plan to later on. One of my frustrations while installing Drupal was that I could not seem to get rid of the &quot;Julia&#39;s Blog&quot; link at the bottom of each blog post. After searching through the documentation, it seemed like I had three options. I could hide the text with CSS, modify the core code, or, change the nodetype of my content from blog to story. I decided to change the node type using the very helpful <a href="http://drupal.org/project/nodetype">nodetype module</a>. My last step in setting up my site was to learn about and implement Drupal SEO best practices. I found <a href="http://blamcast.net/articles/drupal-seo">a couple</a> <a href="http://devbee.com/drupal_seo">good posts</a> on the topic and downloaded the <a href="http://drupal.org/project/pathauto">pathauto</a>, <a href="http://drupal.org/project/search404">search404</a>, <a href="http://drupal.org/project/nodewords">nodewords</a>, <a href="http://drupal.org/project/nodewords">page_title</a>, and <a href="http://drupal.org/project/gsitemap">gsitemap</a> modules. In the next couple of weeks, I hope to get the site search to work more effectively and to add some cool Views. I will try to post notes on my progress.</p>
-
-  </div>
-  
-</div>
-
-<div class="pagination">
-  
-    <span class="pagination-item older">Older</span>
-  
-  
-    
-      <a class="pagination-item newer" href="/page3">Newer</a>
-    
-  
-</div>
-
+<h1>A Few Years Back</h1>
+<ul class="posts">
+<li><a href="/blog/">Wrote</a> about <a href="http://www.drupal.org">Drupal</a> and organized <a href="http://groups.drupal.org/tridug">TriDUG</a></li>
+<li>Spoke at <a href="http://cms-workshop.pbworks.com/w/page/14485599/FrontPage">UNC's An Introduction to Content Management Systems workshop</a></li>
+<li>Went to <a href="http://sils.unc.edu/">UNC's School of Information and Library Science</a></li>
 
       </div>
     </div>
