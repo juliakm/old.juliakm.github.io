@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Building Drupal Forums at AASHE &middot; JuliaKM
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          JuliaKM
+        </a>
+      </h1>
+      <p class="lead">A collection of odd things. You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/archive/">Archive</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+      <!--<a class="sidebar-nav-item" href="https://github.com/poole/hyde/archive/v2.1.0.zip">Download</a>
+      <a class="sidebar-nav-item" href="https://github.com/poole/hyde">GitHub project</a>-->
+      <span class="sidebar-nav-item">Currently v2.1.0</span>
+    </nav>
+
+    <p>&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Building Drupal Forums at AASHE</h1>
+  <span class="post-date">09 Nov 2009</span>
+  <p>The idea of building a Campus Sustainability Forum has been kicking around <a href="http://www.aashe.org" title="AASHE">my organization</a> for years. When the organization was choosing a CMS about three years ago, one of the major reasons we went with Drupal was the forum integration. </p>
+
+<p>The goal of the <a href="http://www.aashe.org/forums" title="AASHE Forums">AASHE Campus Sustainability Forums</a> is to provide a central place where those interested in campus sustainability can ask and answer questions, share knowledge and expertise, and contribute to the growing body of knowledge on campus sustainability.</p>
+
+<p>Currently, most information about campus sustainability is exchanged via the <a href="http://listserv.brown.edu/?A0=GRNSCH-L">Green Schools Listserv</a>. While this listserv is an excellent way of quickly asking questions and getting responses, there was no one location where all of the discussion is archived and easily searched. Our goal in building the Campus Sustainability Forums was to fill this void. </p>
+
+<p>Before we started work on the forums, my co-workers scoured other web forums around the web and came back with a number of features requests from other forums. While the core Forum module met some of these requests, I found myself looking for additional modules to achieve most of the forum functionality. Here&#39;s an overview of how I used the core module and contributed modules to build the forums. </p>
+
+<h2 id="core_forum_module_functionality">
+  Core Forum Module Functionality
+</h2>
+
+<p><em>Create forum posts and Respond to forum posts via comments</em> Using the core Forum module, users with different permission levels are able to create posts and respond to posts with comments. Forum topics are a node type and all users are able to create forum topics. However, as explained later, only specific roles can automatically publish their topics.</p>
+
+<p><em>Mark posts as sticky</em> We wanted to be able to highlight more relevant or timely topics by having them stick to the top of topic listing pages. This is easily achieved by marking a post as sticky. In fact, this is one of the few times when I have been able to easily explain to end users what the sticky checkbox means. </p>
+
+<p><em>Organize posts by taxonomy</em> AASHE has an existing classification for campus sustainability that is used within the site and is based on the <a href="http://www.aashe.org/stars">Sustainability Tracking And Reporting System (STARS)</a>. We were able to easily create a Forum vocabulary with these terms. I used the helpful <a href="http://drupal.org/project/taxonomy_csv">Taxonomy CSV</a> and <a href="http://drupal.org/project/taxonomy_xml">Taxonomy XML</a> modules to export and import taxonomies between our development, staging, and live sites. One problem that we ran into was having a forum that could be organized by multiple taxonomies, which was an initial requirement. Although you can assign new taxonomies to forum topic posts, the forum itself can only be organized by one vocabulary. This is a limitation that I wasn’t able to get around. </p>
+
+<p><em>RSS feed for each forum</em> Since the forum is organized by taxonomy terms, there is an automatic RSS feed for each forum. Having separate RSS Feeds was one of our earliest requirements because someone interested in the Curriculum forum is not necessarily interested in the Waste one. One slight problem we’ve run into is that our users don’t expect the RSS icon to be for a different set of posts when you are on a taxonomy page. We are going to add some help text to further explain this later on. </p>
+
+<p><em>Anonymous block to encourage users to sign-in</em> When we first tested the forum, we noticed that users were confused about how to sign in from the forums main page. To get around this, I created a block only shown to anonymous users encouraging logging in. </p>
+
+<p><em>Individual topic areas can be co-branded with partner associations. For example, the ACUPCC sponsors the <a href="http://www.aashe.org/forums/climate">Climate Forum</a></em> While there’s no section-sponsor setup out of the box with the forum module, it was relatively easy to use blocks that appear only on particular pages to set up forum sponsors. For example, the ACUPCC sponsors our Climate forum and this sponsorship is recognized in a block. In a future version of the forum, it would be ideal to attach forum sponsors to taxonomy terms as an additional field. This should be possible in Drupal 7. </p>
+
+<h2 id="adding_contributed_modules">
+  Adding Contributed Modules
+</h2>
+
+<p><em>Look and feel can be customized to match main AASHE website</em> Once I started designing the forum, I quickly found that it was challenging to make the look-and-feel of the forum match the AASHE website. However, the <a href="http://drupal.org/project/advanced_forum">Advanced Forum</a> module provides a number of presets themes that make theming a lot easier. I used the Naked theme and was able to create a forum design in a few hours. </p>
+
+<p><em>Ability for users to sign up for email notification (by email or RSS) of replies</em> While the RSS functionality is taken care of by the core forum module, email subscriptions were more complicated to implement. I ended up using the <a href="http://drupal.org/project/notifications">Notifications</a> module, <a href="http://drupal.org/project/token">Token</a> module, <a href="http://drupal.org/project/messaging">Messaging</a>, and <a href="http://drupal.org/project/mimemail">Mimemail</a>. Notifications and Messaging made it easy to create templates that are sent out in response to certain events such as a new comment being posted. Users are automatically sent HTML emails (using Mimemail) and can subscribe by taxonomy term, author name, content type, and thread to email notifications. However, we’ve had a bit of difficulty communicating this functionality to our users. </p>
+
+<p><em>Sponsors recognized in random order on the main forums page</em> To make sure that our forum had an active base of users, we sought out sponsors. In exchange for promoting the forums, sponsor logos are presented in random order on the right side of the page and listed in text alphabetically at the bottom of each forum page. This is all accomplished using <a href="http://drupal.org/project/views">Views</a>, <a href="http://drupal.org/project/imagecache">Imagecache</a>, <a href="http://drupal.org/project/link">Link</a>, <a href="http://drupal.org/project/filefield">FileField</a> and <a href="http://drupal.org/project/imagefield">ImageField</a>. I set up a sponsor node type where users can enter the sponsor name, a link to the sponsor website, and upload an image that is resized to 125 pixels wide. The list of sponsor images on the right is a Views block that displays in random order and the text list on the bottom of the page is a different Views block. </p>
+
+<p><em>AASHE staff logo to accompany staff posts, AASHE member logo accompanies member posts</em> We were able to easily use the <a href="http://drupal.org/project/user_badges">User Badges</a> module to create logos to accompany member and staff posts. The goal of this is to draw attention to “official” answers in the forum and to also highlight our members. </p>
+
+<p><em>When non-members submit posts, they are not published and the AASHE moderators receive an automatic notification.</em> It has been hard to figure out how to best moderate forum posts and avoid having the forum overrun with spam and posts that violate our terms of use. Our current solution is to post any content from members without review but save as draft any posts from non-members. To accomplish this, I set up a rule using the <a href="http://drupal.org/project/rules">Rules module</a> that emails a notification to our staff moderator when we have a new non-member post or comment and also sets it as a draft. In the future, I am going to write a module that assigns all .edu email addresses a role and that role can automatically post to the forum without review. </p>
+
+<p><em>The “Real Name” and not the username should show up everywhere for users</em> We don’t ever use usernames on the AASHE website and instead override all names using the RealName module. Without any modifications, the <a href="http://drupal.org/project/realname">RealName module</a> replaced all of our usernames (set with theme_username) with our profile First + Last name combination. </p>
+
+<p><em>Users can “quote” one another in forum threads</em> One features that our staff really liked on other forums was the ability to quote other posts. Using the <a href="http://drupal.org/project/quote">Quote module</a>, we were able to add this button and functionality. However, since Quote doesn’t use theme_username, we had to write a <a href="http://drupal.org/node/364871%23comment-2129570">small patch</a> to the module. </p>
+
+<p><em>Display recent posts categorized by relevant taxonomy term throughout the site</em> We wanted to be able to have relevant posts show up depending on where a user is within our site. For example, if they are looking at a Climate resource, they would see relevant Climate posts in a list block. This was implemented on our development site using Views and arguments. However, it is not implemented on the live site yet. </p>
+
+<h2 id="deploying">
+  Deploying
+</h2>
+
+<p>One of the trickiest parts of deploying our forum was that so much of the functionality was tied up in contributed modules and database code. I ended up using the Features module to bundle together the required modules, Views, content types, and imagecache presets from development to staging to live site. Feature alone didn’t capture all of the settings, so I also practiced my live migration by first moving from our development to staging site and writing down all of the little configuration settings and then using that list to move to the live site. Please let me know if you are interested in having a copy of the feature. </p>
+
+<h2 id="how_it_all_came_together">
+  How It All Came Together
+</h2>
+
+<p>In the first screenshot, you can see the anonymous user block on the left, as well as a sponsor/description block. On the right, you can see our sponsor view that presents a list of logos and an example of real names being used in the last post listing. </p>
+
+<p><a href="http://www.flickr.com/photos/juliakm/4089714778/" title="AASHE Forum Homepage by jkullama, on Flickr"><img src="http://farm3.static.flickr.com/2446/4089714778_919a0c105c.jpg" width="500" height="334" alt="AASHE Forum Homepage" /></a> 
+In the second screenshot, you can see an example of member badges, our recent posts view, the subscription option and the ability to quote posts. </p>
+
+<p><a href="http://www.flickr.com/photos/juliakm/4089714562/" title="AASHE Forum Topic Page by jkullama, on Flickr"><img src="http://farm3.static.flickr.com/2620/4089714562_a549b774c0.jpg" width="500" height="328" alt="AASHE Forum Topic Page" /></a> </p>
+
+<h2>So, How Long Did It Take?</h2>
+
+<p>I probably spent between 50 and 60 hours building the forums and my co-worker Matt worked 5 to 10 hours. A significant amount of my time was spent trying out and then discarding modules that didn&#39;t quite meet our needs. It also took awhile to figure out how to configure Mimemail with Notifications.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2011/04/19/112/">
+            Moving to a Content Management System: NCTech4Good Presentation and Resources
+            <small>19 Apr 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2009/09/20/drupalcamp-atlanta-presentation-why-do-drupal-projects-fail/">
+            Drupalcamp Atlanta Presentation: Why do Drupal Projects Fail?
+            <small>20 Sep 2009</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2009/05/25/how-move-drupal-site-new-host-without-going-crazy/">
+            How to Move a Drupal Site to a New Host Without Going Crazy
+            <small>25 May 2009</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

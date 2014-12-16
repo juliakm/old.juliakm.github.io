@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Getting Drupal's Search Module to Work on Dreamhost &middot; JuliaKM
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          JuliaKM
+        </a>
+      </h1>
+      <p class="lead">A collection of odd things. You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/archive/">Archive</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+      <!--<a class="sidebar-nav-item" href="https://github.com/poole/hyde/archive/v2.1.0.zip">Download</a>
+      <a class="sidebar-nav-item" href="https://github.com/poole/hyde">GitHub project</a>-->
+      <span class="sidebar-nav-item">Currently v2.1.0</span>
+    </nav>
+
+    <p>&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Getting Drupal's Search Module to Work on Dreamhost</h1>
+  <span class="post-date">30 Jun 2007</span>
+  <p>One of my first frustrations with Drupal was that I could not seem to get the search module to work. I searched my new Drupal site again and again and was irked to find that each search returned the unhelpful response, &quot;Your search yielded no results.&quot; After searching the forums, I realized out that the search module only works if you have set up a cron job on your server for cron.php. The easiest way to do this via Dreamhost is to go to the control panel (panel.dreamhost.com). Here are the steps to take once there: 1. Click on &quot;Goodies&quot; on the left navigation menu of your control panel. At the bottom of the new menu that just appeared, select &quot;Crob Jobs.&quot; 2. Click &quot;Add New Cron Job.&quot; 3. On the next screen, create a title for your cron job such as drupancron and enter the following code in the &quot;Command to Run&quot; box: <code>
+wget http://www.yoursite.com/cron.php
+</code> Make sure to replace &quot;yoursite&quot; with the name of your site. 4. Mark the job as &quot;Enabled&quot; and select how frequently your cron job should run. If you post infrequently, once a day should be sufficient. Otherwise, you should consider running the job hourly. 5. Wait an hour or a day to make sure that your cron job is running effectively by searching for a term that you know will have search results.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2011/04/19/112/">
+            Moving to a Content Management System: NCTech4Good Presentation and Resources
+            <small>19 Apr 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2009/11/09/building-drupal-forums-aashe/">
+            Building Drupal Forums at AASHE
+            <small>09 Nov 2009</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2009/09/20/drupalcamp-atlanta-presentation-why-do-drupal-projects-fail/">
+            Drupalcamp Atlanta Presentation: Why do Drupal Projects Fail?
+            <small>20 Sep 2009</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

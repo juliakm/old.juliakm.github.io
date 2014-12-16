@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>JuliaKM</title>
+ <link href="http://juliakm.github.io/atom.xml" rel="self"/>
+ <link href="http://juliakm.github.io/"/>
+ <updated>2014-12-15T22:17:27-05:00</updated>
+ <id>http://juliakm.github.io</id>
+ <author>
+   <name>Julia K-M</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Moving to a Content Management System: NCTech4Good Presentation and Resources</title>
+   <link href="http://juliakm.github.io/2011/04/19/112/"/>
+   <updated>2011-04-19T02:26:12-04:00</updated>
+   <id>http://juliakm.github.io/2011/04/19/112</id>
+   <content type="html">&lt;p&gt;It was a pleasure to present on moving from a static website to a content management system at the &lt;a href=&quot;http://nctech4good.org/&quot;&gt;2011 NCTech4Good Conference&lt;/a&gt; this past Friday. I had the opportunity to meet lots of great people doing work in the North Carolina nonprofit community. Although I intended to keep my presentation CMS-agnostic, I ended up talking about the many advantages of using Drupal throughout the day.&lt;/p&gt;
+
+&lt;p&gt;You can find my presentation and a selection of recommended resources below. &lt;/p&gt;
+
+&lt;h3 id=&quot;choosing_a_content_management_system_wysiwyg&quot;&gt;
+  Choosing A Content Management System &amp; WYSIWYG
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  &lt;a href=&quot;http://www.idealware.org/reports/2010-os-cms&quot;&gt;Idealware CMS Review&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://www.cmsmatrix.org/&quot;&gt;CMS Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://atendesigngroup.com/blog/what-it-not-what-it-looks&quot;&gt;ATEN’s Article on Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://www.drupalgardens.com&quot;&gt;Drupal Gardens&lt;/a&gt; - an alternative to self-hosting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;designing_a_user_driven_process&quot;&gt;
+  Designing a User-Driven Process
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  &lt;a href=&quot;http://www.aashe.org/blog/behind-scenes-aashe-website-redesign&quot;&gt;My Blog Post - Behind the Scenes of the AASHE Redesign&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;https://docs.google.com/document/d/17rRjLQLwmDAD2jVKyXZ9mhQwZ56i9TmpEF6Rju2PZDM/edit?hl=en&amp;amp;authkey=CKDh2p8C&quot;&gt;AASHE’s Project Charter Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://www.optimalworkshop.com/optimalsort.htm&quot;&gt;OptimalSort - Card Sorting Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://userpoint.fi/tools/card_sort_cluster_analysis_tool/&quot;&gt;Card Sorting Analysis Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://www.feedbackarmy.com/&quot;&gt;Feedback Army Usability Testing&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;  Wireframing Tools - &lt;a href=&quot;http://balsamiq.com/products/mockups&quot;&gt;Balsamiq&lt;/a&gt;, &lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/&quot;&gt;Omnigraffle&lt;/a&gt;, &lt;a href=&quot;http://office.microsoft.com/en-us/visio/&quot;&gt;Visio&lt;/a&gt;, &lt;a href=&quot;http://www.photoshop.com/&quot;&gt;Photoshop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;migration_tools&quot;&gt;
+  Migration Tools
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  &lt;a href=&quot;http://infohound.net/tidy/&quot;&gt;HTMLTidy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/&quot;&gt;htmLawed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://drupal.org/project/migrate&quot;&gt;Drupal Migrate Module&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href=&quot;http://milianw.de/projects/markdownify/&quot;&gt;Markdownify&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;presentation&quot;&gt;
+  Presentation
+&lt;/h3&gt;
+
+&lt;div style=&quot;width:425px&quot; id=&quot;__ss_7664998&quot;&gt;
+  &lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/JuliaKM/moving-from-a-static-site-to-a-cms-or-from-one-cms-to-another-without-losing-your-mind&quot; title=&quot;Moving from a Static Site to a CMS or from one CMS to Another Without Losing Your Mind&quot;&gt;Moving from a Static Site to a CMS or from one CMS to Another Without Losing Your Mind&lt;/a&gt;&lt;/strong&gt; &lt;div style=&quot;padding:5px 0 12px&quot;&gt;
+    View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/JuliaKM&quot;&gt;Julia Kulla-Mader&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Building Drupal Forums at AASHE</title>
+   <link href="http://juliakm.github.io/2009/11/09/building-drupal-forums-aashe/"/>
+   <updated>2009-11-09T03:47:09-05:00</updated>
+   <id>http://juliakm.github.io/2009/11/09/building-drupal-forums-aashe</id>
+   <content type="html">&lt;p&gt;The idea of building a Campus Sustainability Forum has been kicking around &lt;a href=&quot;http://www.aashe.org&quot; title=&quot;AASHE&quot;&gt;my organization&lt;/a&gt; for years. When the organization was choosing a CMS about three years ago, one of the major reasons we went with Drupal was the forum integration. &lt;/p&gt;
+
+&lt;p&gt;The goal of the &lt;a href=&quot;http://www.aashe.org/forums&quot; title=&quot;AASHE Forums&quot;&gt;AASHE Campus Sustainability Forums&lt;/a&gt; is to provide a central place where those interested in campus sustainability can ask and answer questions, share knowledge and expertise, and contribute to the growing body of knowledge on campus sustainability.&lt;/p&gt;
+
+&lt;p&gt;Currently, most information about campus sustainability is exchanged via the &lt;a href=&quot;http://listserv.brown.edu/?A0=GRNSCH-L&quot;&gt;Green Schools Listserv&lt;/a&gt;. While this listserv is an excellent way of quickly asking questions and getting responses, there was no one location where all of the discussion is archived and easily searched. Our goal in building the Campus Sustainability Forums was to fill this void. &lt;/p&gt;
+
+&lt;p&gt;Before we started work on the forums, my co-workers scoured other web forums around the web and came back with a number of features requests from other forums. While the core Forum module met some of these requests, I found myself looking for additional modules to achieve most of the forum functionality. Here&amp;#39;s an overview of how I used the core module and contributed modules to build the forums. &lt;/p&gt;
+
+&lt;h2 id=&quot;core_forum_module_functionality&quot;&gt;
+  Core Forum Module Functionality
+&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Create forum posts and Respond to forum posts via comments&lt;/em&gt; Using the core Forum module, users with different permission levels are able to create posts and respond to posts with comments. Forum topics are a node type and all users are able to create forum topics. However, as explained later, only specific roles can automatically publish their topics.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Mark posts as sticky&lt;/em&gt; We wanted to be able to highlight more relevant or timely topics by having them stick to the top of topic listing pages. This is easily achieved by marking a post as sticky. In fact, this is one of the few times when I have been able to easily explain to end users what the sticky checkbox means. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Organize posts by taxonomy&lt;/em&gt; AASHE has an existing classification for campus sustainability that is used within the site and is based on the &lt;a href=&quot;http://www.aashe.org/stars&quot;&gt;Sustainability Tracking And Reporting System (STARS)&lt;/a&gt;. We were able to easily create a Forum vocabulary with these terms. I used the helpful &lt;a href=&quot;http://drupal.org/project/taxonomy_csv&quot;&gt;Taxonomy CSV&lt;/a&gt; and &lt;a href=&quot;http://drupal.org/project/taxonomy_xml&quot;&gt;Taxonomy XML&lt;/a&gt; modules to export and import taxonomies between our development, staging, and live sites. One problem that we ran into was having a forum that could be organized by multiple taxonomies, which was an initial requirement. Although you can assign new taxonomies to forum topic posts, the forum itself can only be organized by one vocabulary. This is a limitation that I wasn’t able to get around. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;RSS feed for each forum&lt;/em&gt; Since the forum is organized by taxonomy terms, there is an automatic RSS feed for each forum. Having separate RSS Feeds was one of our earliest requirements because someone interested in the Curriculum forum is not necessarily interested in the Waste one. One slight problem we’ve run into is that our users don’t expect the RSS icon to be for a different set of posts when you are on a taxonomy page. We are going to add some help text to further explain this later on. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Anonymous block to encourage users to sign-in&lt;/em&gt; When we first tested the forum, we noticed that users were confused about how to sign in from the forums main page. To get around this, I created a block only shown to anonymous users encouraging logging in. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Individual topic areas can be co-branded with partner associations. For example, the ACUPCC sponsors the &lt;a href=&quot;http://www.aashe.org/forums/climate&quot;&gt;Climate Forum&lt;/a&gt;&lt;/em&gt; While there’s no section-sponsor setup out of the box with the forum module, it was relatively easy to use blocks that appear only on particular pages to set up forum sponsors. For example, the ACUPCC sponsors our Climate forum and this sponsorship is recognized in a block. In a future version of the forum, it would be ideal to attach forum sponsors to taxonomy terms as an additional field. This should be possible in Drupal 7. &lt;/p&gt;
+
+&lt;h2 id=&quot;adding_contributed_modules&quot;&gt;
+  Adding Contributed Modules
+&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Look and feel can be customized to match main AASHE website&lt;/em&gt; Once I started designing the forum, I quickly found that it was challenging to make the look-and-feel of the forum match the AASHE website. However, the &lt;a href=&quot;http://drupal.org/project/advanced_forum&quot;&gt;Advanced Forum&lt;/a&gt; module provides a number of presets themes that make theming a lot easier. I used the Naked theme and was able to create a forum design in a few hours. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ability for users to sign up for email notification (by email or RSS) of replies&lt;/em&gt; While the RSS functionality is taken care of by the core forum module, email subscriptions were more complicated to implement. I ended up using the &lt;a href=&quot;http://drupal.org/project/notifications&quot;&gt;Notifications&lt;/a&gt; module, &lt;a href=&quot;http://drupal.org/project/token&quot;&gt;Token&lt;/a&gt; module, &lt;a href=&quot;http://drupal.org/project/messaging&quot;&gt;Messaging&lt;/a&gt;, and &lt;a href=&quot;http://drupal.org/project/mimemail&quot;&gt;Mimemail&lt;/a&gt;. Notifications and Messaging made it easy to create templates that are sent out in response to certain events such as a new comment being posted. Users are automatically sent HTML emails (using Mimemail) and can subscribe by taxonomy term, author name, content type, and thread to email notifications. However, we’ve had a bit of difficulty communicating this functionality to our users. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sponsors recognized in random order on the main forums page&lt;/em&gt; To make sure that our forum had an active base of users, we sought out sponsors. In exchange for promoting the forums, sponsor logos are presented in random order on the right side of the page and listed in text alphabetically at the bottom of each forum page. This is all accomplished using &lt;a href=&quot;http://drupal.org/project/views&quot;&gt;Views&lt;/a&gt;, &lt;a href=&quot;http://drupal.org/project/imagecache&quot;&gt;Imagecache&lt;/a&gt;, &lt;a href=&quot;http://drupal.org/project/link&quot;&gt;Link&lt;/a&gt;, &lt;a href=&quot;http://drupal.org/project/filefield&quot;&gt;FileField&lt;/a&gt; and &lt;a href=&quot;http://drupal.org/project/imagefield&quot;&gt;ImageField&lt;/a&gt;. I set up a sponsor node type where users can enter the sponsor name, a link to the sponsor website, and upload an image that is resized to 125 pixels wide. The list of sponsor images on the right is a Views block that displays in random order and the text list on the bottom of the page is a different Views block. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;AASHE staff logo to accompany staff posts, AASHE member logo accompanies member posts&lt;/em&gt; We were able to easily use the &lt;a href=&quot;http://drupal.org/project/user_badges&quot;&gt;User Badges&lt;/a&gt; module to create logos to accompany member and staff posts. The goal of this is to draw attention to “official” answers in the forum and to also highlight our members. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;When non-members submit posts, they are not published and the AASHE moderators receive an automatic notification.&lt;/em&gt; It has been hard to figure out how to best moderate forum posts and avoid having the forum overrun with spam and posts that violate our terms of use. Our current solution is to post any content from members without review but save as draft any posts from non-members. To accomplish this, I set up a rule using the &lt;a href=&quot;http://drupal.org/project/rules&quot;&gt;Rules module&lt;/a&gt; that emails a notification to our staff moderator when we have a new non-member post or comment and also sets it as a draft. In the future, I am going to write a module that assigns all .edu email addresses a role and that role can automatically post to the forum without review. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The “Real Name” and not the username should show up everywhere for users&lt;/em&gt; We don’t ever use usernames on the AASHE website and instead override all names using the RealName module. Without any modifications, the &lt;a href=&quot;http://drupal.org/project/realname&quot;&gt;RealName module&lt;/a&gt; replaced all of our usernames (set with theme_username) with our profile First + Last name combination. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Users can “quote” one another in forum threads&lt;/em&gt; One features that our staff really liked on other forums was the ability to quote other posts. Using the &lt;a href=&quot;http://drupal.org/project/quote&quot;&gt;Quote module&lt;/a&gt;, we were able to add this button and functionality. However, since Quote doesn’t use theme_username, we had to write a &lt;a href=&quot;http://drupal.org/node/364871%23comment-2129570&quot;&gt;small patch&lt;/a&gt; to the module. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Display recent posts categorized by relevant taxonomy term throughout the site&lt;/em&gt; We wanted to be able to have relevant posts show up depending on where a user is within our site. For example, if they are looking at a Climate resource, they would see relevant Climate posts in a list block. This was implemented on our development site using Views and arguments. However, it is not implemented on the live site yet. &lt;/p&gt;
+
+&lt;h2 id=&quot;deploying&quot;&gt;
+  Deploying
+&lt;/h2&gt;
+
+&lt;p&gt;One of the trickiest parts of deploying our forum was that so much of the functionality was tied up in contributed modules and database code. I ended up using the Features module to bundle together the required modules, Views, content types, and imagecache presets from development to staging to live site. Feature alone didn’t capture all of the settings, so I also practiced my live migration by first moving from our development to staging site and writing down all of the little configuration settings and then using that list to move to the live site. Please let me know if you are interested in having a copy of the feature. &lt;/p&gt;
+
+&lt;h2 id=&quot;how_it_all_came_together&quot;&gt;
+  How It All Came Together
+&lt;/h2&gt;
+
+&lt;p&gt;In the first screenshot, you can see the anonymous user block on the left, as well as a sponsor/description block. On the right, you can see our sponsor view that presents a list of logos and an example of real names being used in the last post listing. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/juliakm/4089714778/&quot; title=&quot;AASHE Forum Homepage by jkullama, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2446/4089714778_919a0c105c.jpg&quot; width=&quot;500&quot; height=&quot;334&quot; alt=&quot;AASHE Forum Homepage&quot; /&gt;&lt;/a&gt; 
+In the second screenshot, you can see an example of member badges, our recent posts view, the subscription option and the ability to quote posts. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/juliakm/4089714562/&quot; title=&quot;AASHE Forum Topic Page by jkullama, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2620/4089714562_a549b774c0.jpg&quot; width=&quot;500&quot; height=&quot;328&quot; alt=&quot;AASHE Forum Topic Page&quot; /&gt;&lt;/a&gt; &lt;/p&gt;
+
+&lt;h2&gt;So, How Long Did It Take?&lt;/h2&gt;
+
+&lt;p&gt;I probably spent between 50 and 60 hours building the forums and my co-worker Matt worked 5 to 10 hours. A significant amount of my time was spent trying out and then discarding modules that didn&amp;#39;t quite meet our needs. It also took awhile to figure out how to configure Mimemail with Notifications.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Drupalcamp Atlanta Presentation: Why do Drupal Projects Fail?</title>
+   <link href="http://juliakm.github.io/2009/09/20/drupalcamp-atlanta-presentation-why-do-drupal-projects-fail/"/>
+   <updated>2009-09-20T10:53:23-04:00</updated>
+   <id>http://juliakm.github.io/2009/09/20/drupalcamp-atlanta-presentation-why-do-drupal-projects-fail</id>
+   <content type="html">&lt;p&gt;As co-organizer of the &lt;a href=&quot;http://groups.drupal.org/triangle-nc-raleigh-durham-chapel-hill&quot;&gt;Triangle Drupal group&lt;/a&gt;, I&amp;#39;ve met some great people who have had some terrible experiences with Drupal. At the same time, I have become increasingly frustrated by my inability to accurately predict what Drupal projects will succeed and which will fail. For the past few months, I&amp;#39;ve been thinking about how I can try and more accurately predict what Drupal projects will be successful. Instead of only drawing from my own experiences and anecdotal evidence, I thought it would be helpful to put together a survey. I &lt;a href=&quot;http://twitter.com/juliakm/status/4056855118&quot;&gt;distributed the survey via Twitter&lt;/a&gt; and had about 25 responses. While this is by no means a scientific study, I do think that others might find the results helpful. I summarized the results yesterday when I presented at Drupalcamp Atlanta yesterday on, &amp;quot;Why do Drupal Projects Fail?: Evaluating Success Factors and When to Use Drupal.&amp;quot; &lt;a href=&quot;http://www.slideshare.net/JuliaKM/why-do-drupal-projects-fail-evaluating-success-factors-and-when-to-use-drupal&quot;&gt;You can find the slides here&lt;/a&gt;. For those of you who don&amp;#39;t have time to read the slides (or watch the video which Drupalcamp Atlanta should have up soon), here are my key findings. &lt;/p&gt;
+
+&lt;h3&gt;What are the common patterns of Drupal project success?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Early Goal Setting Avoids Scope Creep&lt;/strong&gt;: Projects where all of the stakeholders identified and set project goals early were much more likely to report having adequate specifications, and less likely to report scope creep. I thought that this was interesting since I’ve spent a lot of time as a developer whining about specs and less time thinking about overall goals. &lt;em&gt;Advice&lt;/em&gt;: Since projects that devoted time to setting goals had more accurate specifications, you need to evaluate whether you have time to devote to setting goals before you start your project. Although it is tempting to jump right into specifications, it makes more sense to take a step back and evaluate how each member of your project team is defining project success. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On-Going Project Audits Make a Difference&lt;/strong&gt;: Projects with on-going audits were more likely to be fully completed (no abandonment) and finished on schedule. &lt;em&gt;Advice&lt;/em&gt;: Before you begin, you need to make sure that you have identified someone unbiased on your team who can spend time checking deliverables against milestones. I suggest that this person is not someone doing the design or development work on your project. It can be very hard to keep your perspective on the milestones when you are coding all day and want to make everyone happy. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Module Performance Matters&lt;/strong&gt;: If more than 90 percent of Drupal modules do not work as expected or meet user requirements, projects will run into schedule problems and experience scope creep. &lt;em&gt;Advice&lt;/em&gt;: From my perspective, this is the most critical factor. The big question you need to answer is, &amp;quot;Can you accurately make predictions about how modules will perform?&amp;quot; If you cannot, can you pay to hire someone who can. Unfortunately, learning how to accurately predict whether modules will meet user needs can take a long time to figure out. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Non-Developers Need to Understand Drupal&lt;/strong&gt;: Projects completed on schedule without scope creep are built by developers working with technical project managers and stakeholders who “get” Drupal. &lt;em&gt;Advice&lt;/em&gt;: I&amp;#39;d suggest that you introduce everyone on your team to Drupal before starting your project. I highly recommend the Lullabot video, &lt;a href=&quot;http://store.lullabot.com/products/understanding-drupal&quot;&gt;Understanding Drupal&lt;/a&gt;, for everyone on your team. It will give your whole team, in a very non-threatening way, an solid understanding of Drupal. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Beware of Big Projects&lt;/strong&gt;: Large projects (over 1,500 pages) were more likely to go over budget and schedule. &lt;em&gt;Advice&lt;/em&gt;: Big Drupal projects need more attention and are going to be inherently risky. If you have a big project (1,500+ pages, lots of module complexity), you need to be willing to alter cost, scope, or budget down the road. It is best to build a lot of padding into your schedule for larger projects. I&amp;#39;ve attached the &lt;a href=&quot;http://www.juliakm.com/resources/Drupalpilotsurvey_raw_data_1.zip&quot;&gt;raw data from my survey&lt;/a&gt; and &lt;a href=&quot;http://www.slideshare.net/JuliaKM/why-do-drupal-projects-fail-evaluating-success-factors-and-when-to-use-drupal&quot;&gt;my presentation is on Slideshare&lt;/a&gt;. Please let me know if you have any questions and feel free to re-use any of the questions or slides.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How to Move a Drupal Site to a New Host Without Going Crazy</title>
+   <link href="http://juliakm.github.io/2009/05/25/how-move-drupal-site-new-host-without-going-crazy/"/>
+   <updated>2009-05-25T08:09:32-04:00</updated>
+   <id>http://juliakm.github.io/2009/05/25/how-move-drupal-site-new-host-without-going-crazy</id>
+   <content type="html">&lt;h3 id=&quot;preparation&quot;&gt;
+  Preparation
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;A. Upgrade modules and Drupal core code&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Although it’s tempting to move your files and database quickly, I strongly recommend doing some preparation first. Before I move Drupal site, I always first check for any new Drupal core and module updates. If there are modules that need to be updated, I do the update before moving my site. The advantage of this is that it is easier later on to debug any problems that arise during the migration if you are already using the latest version of all Drupal code. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;B. Check your version of PHP and MySQL on the new and current host&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Some Drupal modules require PHP 5.x. I’ve run into problems before when I move over code to a new server that is running PHP 4.x. &lt;/p&gt;
+
+&lt;p&gt;To check your PHP version, log into your new and old servers separately via ssh and run the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;php -v&lt;/code&gt; 
+&lt;em&gt;Helpful advice from Scor in the comments:&lt;/em&gt; The PHP CLI is not always installed and php -v might not work, or if it does it might be a different version than the one Apache runs. In any case that does not mean you cannot use Drupal on the server. Another way to check these things is to try to install a dummy Drupal core site and see if it works ok. 
+To check what version of MySQL you are using, open MySQL via the shell on your computer and type:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;status&lt;/code&gt; 
+If you are running different versions of PHP and/or MySQL on your new and old servers, be sure to check for any incompatibilities with your modules. Any module that requires PHP 5.x should say so in the README.txt document. I highly recommend making sure that your new host uses PHP 5.x before switching. &lt;/p&gt;
+
+&lt;p&gt;You can also check the PHP and MySQL versions of your old site via Drupal on the status page at admin/reports/status.&lt;/p&gt;
+
+&lt;h3 id=&quot;create_your_new_domain&quot;&gt;
+  Create Your New Domain
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;C. Create your new domain at your new host&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on your host, there are many ways that you could go about creating your domain. For most hosts, there will be a tool where you can define your new domain. It is important to note that creating your domain at your new host will not move your site. You will need to change your DNS records for that to happen. &lt;/p&gt;
+
+&lt;h3 id=&quot;moving_databases&quot;&gt;
+  Moving Databases
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;D. Export your Drupal database using phpMyAdmin&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; If you do not have phpMyAdmin and are not familiar with the command-line, an alternative option is to use the &lt;a href=&quot;http://drupal.org/project/backup_migrate&quot;&gt;Backup and Migrate module&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;If you decide to use phpMyAdmin, I recommend truncating (emptying) the cache tables before you export your database. Go to all of the tables that start with cache_ and select the &amp;quot;Empty&amp;quot; tab. You can also manually clear Views Cache within the Views module. &lt;/p&gt;
+
+&lt;p&gt;To export a database using phpMyAdmin, go to the database and select the “Export” tab. I recommend checking the “Extended inserts” checkbox and saving your export as a “gzipped” file. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;E. Create the database on your new host&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on your hosting provider, there are many ways that you can go about creating a database. I recommend creating a database with the same name as the one on your old host. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;F. Import your SQL file&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have a database on your new host, you can go and import the SQL file you downloaded to your desktop using phpMyAdmin. Select your new, empty database and then click the “Import” tab. Under the “File to import” option, you can upload your file. Once the file is uploaded, you can select “Go.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Warning&lt;/em&gt;: If you have a large site, importing your file into your new database can take a really long time. Do not stop the operation. Just wait. If your import times out, then you will need to look at importing using command-line or a program like &lt;a href=&quot;http://www.ozerov.de/bigdump.php&quot;&gt;BigDump&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;G. Moving files&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are not familiar with the command-line, you can download all of your files to your desktop and then upload them to your new host using FTP. However, this process can be very slow. I recommend using secure copy (scp) instead. &lt;/p&gt;
+
+&lt;p&gt;To use scp, you first need to know where your files are on your current site. Log into your old site using ssh or ftp and get the path to your web directory from the server root. Once you are in the correct directory, enter:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt; 
+Copy the output to somewhere you’ll be able to find again. &lt;/p&gt;
+
+&lt;p&gt;Next, log into your new host and go to the directory where you want the new files to go. The following worked for me:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;scp -rp myusername@www.myoldhost.com:[/home/myusername/www.myoldhost.com/public_html]/* .&lt;/code&gt; 
+The part after the colon, in brackets, is the path you just copied on your old site. &lt;u&gt;The brackets are just here as an example, do not include them when you scp.&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;This command copies everything in the public_html folder on my old host to the current folder of my new host. the -p flag preserves permissions and the -r flag recursively copies so that you get the content of your folders.&lt;/p&gt;
+
+&lt;p&gt;Be sure to check and make sure that the .htaccess file copied over as well. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; You could also use subversion, git or another version control system to download the new files provided that you host your repository on a different site than your old host. If you are doing this, then you probably have already moved past this step. 
+&lt;h3 id=&quot;setting_up_and_testing_the_new_site&quot;&gt;
+  Setting Up and Testing the New Site
+&lt;/h3&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;H: Edit Settings.php&lt;/em&gt; To correctly configure your database, edit your settings.php with your new domain information. Be sure to scan through settings.php and remove any settings that you may have added that only relate to your old host. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I: Edit Your Hosts File&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You can test your site locally by editing your hosts file. By editing your hosts file, you will be able to see what your site looks like before making the DNS switch. &lt;/p&gt;
+
+&lt;p&gt;I have a Mac and edit my hosts file in “private/etc/hosts.” To test it, I added a new line where the first column is the IP address of my new site and the second is the domain I’m testing. &lt;/p&gt;
+
+&lt;pre&gt;IP address of new site      www.mydomainname.com
+69.123.11.11                www.juliakm.com
+&lt;/pre&gt;
+
+&lt;p&gt;The hosts file is a little trickier to find on Windows machines.This Wikipedia article gives a list of host file locations for different operating systems.&lt;/p&gt; 
+&lt;em&gt;J: Test your site locally&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have your new site showing up using your hosts fix, make sure to test your new site. I recommend trying the following: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Log in&lt;/li&gt;
+&lt;li&gt;  Check your site status at admin/reports/status&lt;/li&gt;
+&lt;li&gt;  Create a post&lt;/li&gt;
+&lt;li&gt;  Edit an existing post&lt;/li&gt;
+&lt;li&gt;  Post a comment&lt;/li&gt;
+&lt;li&gt;  View your module list at admin/build/modules/list&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;K: Fix any problems&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A few problems that I’ve run into before are: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Not making my files/ directory writable&lt;/li&gt;
+&lt;li&gt;  Not having the GD Library installed at my new host&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the GD Library, you’ll have to talk to your new hosting provider. For the files directory, go to the directory above your files directory and enter via command-line: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;chmod -R 755 files&lt;/code&gt; 
+If you are confused about the “chmod” command, search for it on Drupal.org. There is a wealth of information available there. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;L: Undo hosts file changes&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Go back to your hosts file and reverse any changes you made. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;M: Set up your cron job&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on your familiarity with command-line, you can do this via crontab or a tool provided by your hosting company. If your hosting company does not have a tool and you do not want to touch the command-line, check out the &lt;a href=&quot;http://drupal.org/project/poormanscron&quot;&gt;Poorman’s Cron module&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h3 id=&quot;make_the_switch&quot;&gt;
+  Make the Switch
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;N: Your last step is to switch your nameservers from your old site to new site.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Your new hosting company should have provided you with nameservers that correspond to your new server. To point your site to these, you’ll need to go to your domain registrar and edit the DNS records. If your registrar is your old host, you can do this there. If you used another registrar such as GoDaddy, then you’ll need to edit the DNS records there. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;O: Wait 15 minutes to 48 hours and obsessively check “whois”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It takes awhile for DNS changes to propagate. You’ll have to wait at least 15 minutes for the change to take place. Depending on where you live in the country and your registrar, it could take even longer. You can check and see if the switch has happened by typing the following into the command-line:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;host mysite.com&lt;/code&gt; 
+Next, copy the IP address. Then do: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;whois IPAddress&lt;/code&gt; 
+You can also check for whois information online using &lt;a href=&quot;http://www.domaintools.com&quot;&gt;DomainTools&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h3 id=&quot;pat_yourself_on_the_back&quot;&gt;
+  Pat Yourself on the Back
+&lt;/h3&gt;
+
+&lt;p&gt;Congratulations, you have now moved your Drupal site to a new host.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Drupal: A Love Story</title>
+   <link href="http://juliakm.github.io/2009/04/23/drupal-love-story/"/>
+   <updated>2009-04-23T05:04:27-04:00</updated>
+   <id>http://juliakm.github.io/2009/04/23/drupal-love-story</id>
+   <content type="html">&lt;p&gt;I presented on Drupal at UNC&amp;#39;s An Introduction to Content Management Systems workshop last week. The presentation is geared to people trying to decide between Drupal, Joomla, and Wordpress. I hope that I swayed a few to the Drupal camp! &lt;/p&gt;
+
+&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_1306875&quot;&gt;
+  &lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/JuliaKM/drupal-presentation-slides?type=powerpoint&quot; title=&quot;Drupal: A Love Story&quot;&gt;Drupal: A Love Story&lt;/a&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;
+    View more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/JuliaKM&quot;&gt;Julia Kulla-mader&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--break--&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How to Decide Between Using Taxonomy Terms and a CCK Field to Classify Content on a Drupal Site</title>
+   <link href="http://juliakm.github.io/2009/03/19/how-decide-between-using-taxonomy-terms-and-cck-field-classify-content-drupal-site/"/>
+   <updated>2009-03-19T09:29:29-04:00</updated>
+   <id>http://juliakm.github.io/2009/03/19/how-decide-between-using-taxonomy-terms-and-cck-field-classify-content-drupal-site</id>
+   <content type="html">&lt;p&gt;I often have a hard time deciding whether to use a &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; field or the &lt;a class=&quot;zem_slink&quot; href=&quot;http://en.wikipedia.org/wiki/Taxonomy&quot; title=&quot;Taxonomy&quot; rel=&quot;wikipedia&quot;&gt;taxonomy&lt;/a&gt; module when building &lt;a class=&quot;zem_slink&quot; href=&quot;http://drupal.org&quot; title=&quot;Drupal&quot; rel=&quot;homepage&quot;&gt;Drupal&lt;/a&gt; sites. At Drupalcon, I was glad to see that I am not alone in my confusion. At the Drupalcon Drupal Taxonomy Revisted session, I finally started to understand the use case for each.&lt;/p&gt;
+
+&lt;p&gt;Here’s a table I put together to help me quickly decide whether to use taxonomy or &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; in the future.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;
+        Question
+      &lt;/th&gt;
+      
+      &lt;th&gt;
+        Which to Use?
+      &lt;/th&gt;
+      
+      &lt;th&gt;
+        Rationale
+      &lt;/th&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Do you have a lot of terms or attributes?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        As the size of your &lt;a class=&quot;zem_slink&quot; href=&quot;http://en.wikipedia.org/wiki/Vocabulary&quot; title=&quot;Vocabulary&quot; rel=&quot;wikipedia&quot;&gt;vocabulary&lt;/a&gt; or field option list grows, taxonomy becomes a better choice
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        CCK stores its values as text while taxonomy stores values with an ID. This makes lookups over a large data set more efficient for taxonomy.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Are you using a hierarchy?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy is designed to handle multiple levels of hierarchy, which a &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; field is not
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Are you listing attributes? For example, listing the color options of a car.
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        CCK
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        CCK makes more sense if you have created a content type and are adding attributes to it using &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; fields. For example, I could have a car node type and color would be a &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; field
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Does your piece of content exist in the real world on its own?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy terms are designed to map to real-world objects in a way that &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; fields are not. For example, if I have a taxonomy of US States, each state exists whether or not I have assigned content to it.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Will you re-use your term or attribute in multiple ways within your site or re-organize them?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        If you have a classification such as US States that you plan to use in multiple node types, then taxonomy makes more sense. It is easier to add new terms to taxonomies over time than to individual &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; fields.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Are you using &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; or taxonomy to list critical information on your site? What is the cost of losing the data if you upgrade to a future major Drupal version?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy is more futureproof because each term has its own unique id, and, it can be moved between vocabularies. Taxonomy is also a Drupal core module and there will almost certainly be an easy upgrade path from Drupal 6 taxonomy to Drupal 7 taxonomy.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;An Example: Classifying Topic Areas&lt;/h3&gt;
+
+&lt;p&gt;Using this criteria, making the decisions I was &lt;a href=&quot;http://www.juliakm.com/paging-niklp-deciding-between-cck-fields-and-taxonomy&quot;&gt;stuck on in an earlier blog post&lt;/a&gt; becomes a lot easier. &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;
+        Question
+      &lt;/th&gt;
+      
+      &lt;th&gt;
+        Response
+      &lt;/th&gt;
+      
+      &lt;th&gt;
+        Decision
+      &lt;/th&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Do you have a lot of terms or attributes?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Yes, we have at least 200 terms and that number is likely to grow dramatically over the next few years.
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Are you using a hierarchy?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Yes, we have at least 3 levels of hierarchy.
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Are you listing attributes? For example, listing the color options of a car.
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        No, we are listing topics that span multiple content types.
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Does your piece of content exist in the real world on its own?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Somewhat. Greenhouse Gas Inventories exist in the real-world, as does the “Climate.” The category “Campus Operations” is more of a grey area
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Probably Taxonomy
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Will you re-use your term or attribute in multiple ways within your site or re-organize them?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Yes, we plan to classify many different node types with the same terms
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Taxonomy
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        Are you using &lt;span class=&quot;caps&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CCK&lt;/span&gt;&lt;/span&gt; or taxonomy to list critical information on your site? What is the cost of losing the data if you upgrade to a future major Drupal version?
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        It would be painful to lose all of our classification information but I don’t think that it would destroy us as an organization.
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        CCK or Taxonomy
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;After evaluating which to use with my new handy chart, it’s clear the taxonomy makes more sense for classifying our topical areas.&lt;/p&gt;
+
+&lt;div style=&quot;margin-top: 10px; height: 15px;&quot; class=&quot;zemanta-pixie&quot;&gt;
+  &lt;a class=&quot;zemanta-pixie-a&quot; href=&quot;http://reblog.zemanta.com/zemified/ac85ab0e-dd1c-4623-bb1a-310acd93b65b/&quot; title=&quot;Zemified by Zemanta&quot;&gt;&lt;img style=&quot;border: medium none ; float: right;&quot; class=&quot;zemanta-pixie-img&quot; src=&quot;http://img.zemanta.com/reblog_e.png?x-id=ac85ab0e-dd1c-4623-bb1a-310acd93b65b&quot; alt=&quot;Reblog this post [with Zemanta]&quot; /&gt;&lt;/a&gt;&lt;span class=&quot;zem-script more-related&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dish Alternatives: Evaluating Tivo, EyeTV, SageTV, and MythTV</title>
+   <link href="http://juliakm.github.io/2009/02/28/dish-alternatives-evaluating-tivo-eyetv-sagetv-and-mythtv/"/>
+   <updated>2009-02-28T13:22:54-05:00</updated>
+   <id>http://juliakm.github.io/2009/02/28/dish-alternatives-evaluating-tivo-eyetv-sagetv-and-mythtv</id>
+   <content type="html">&lt;p&gt;Eric and I have been trying to save money and after Dish let us know that prices would be going up again, I started investigating alternatives. We both have realized that we can live without cable but not without DVR. Watching American Idol live is a painful experience. It’s must skip TV. &lt;/p&gt;
+
+&lt;p&gt;It seems like there are two big options. We can go with a bundled system or go with a combo of software and an HD tuner stick. I already have an unused Mac Mini available for DVR duties. &lt;/p&gt;
+
+&lt;p&gt;In no particular order, here are the options we’re exploring. &lt;/p&gt;
+
+&lt;h2 id=&quot;the_bundled_options&quot;&gt;
+  The Bundled Options
+&lt;/h2&gt;
+
+&lt;h3 id=&quot;tivo&quot;&gt;
+  &lt;a href=&quot;www.tivo.com&quot;&gt;Tivo&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;The cheapest DVR with HD is $299. We’d also have to pay between $10.75 and $12.95 a month for service. &lt;/p&gt;
+
+&lt;h5 id=&quot;advantages&quot;&gt;
+  Advantages
+&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Nice interface&lt;/li&gt;
+&lt;li&gt;  Netflix integration&lt;/li&gt;
+&lt;li&gt;  We have used it before and liked it&lt;/li&gt;
+&lt;li&gt;  Web-integration: we can set programs to record from our computer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;disadvantages&quot;&gt;
+  Disadvantages
+&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Expensive&lt;/li&gt;
+&lt;li&gt;  Locked into a 1-year service contract&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Total cost for first 2 years: ~$550&lt;/p&gt;
+
+&lt;h3 id=&quot;eyetv&quot;&gt;
+  &lt;a href=&quot;http://www.elgato.com/elgato/&quot;&gt;EyeTV&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;We can buy a HD tuner stick and software &lt;a href=&quot;http://www.elgato.com/elgato/na/mainmenu/products/hybrid09/product1.en.html&quot;&gt;bundled together for $150&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h5 id=&quot;advantages&quot;&gt;
+  Advantages
+&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Can run on a Mac&lt;/li&gt;
+&lt;li&gt;  Comes with TV Guide interface&lt;/li&gt;
+&lt;li&gt;  Award-winning&lt;/li&gt;
+&lt;li&gt;  Looks relatively easy to set up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;disadvantages&quot;&gt;
+  Disadvantages
+&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Not super low-cost&lt;/li&gt;
+&lt;li&gt;  Lots of &lt;a href=&quot;http://search.twitter.com/search?max_id=1263530439&amp;amp;page=2&amp;amp;q=eyetv&quot;&gt;problems reported on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Total cost for first 2 years: ~$150&lt;/p&gt;
+
+&lt;h2 id=&quot;the_separate_options_software_only&quot;&gt;
+  The Separate Options: Software Only
+&lt;/h2&gt;
+
+&lt;p&gt;All of the options below assume that you’ve purchased an HD TV tuner for between $70 and $120. &lt;/p&gt;
+
+&lt;h3 id=&quot;sagetv&quot;&gt;
+  &lt;a href=&quot;http://www.sagetv.com/&quot;&gt;SageTV&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;SageTV offers a 21-day trial.&lt;/p&gt;
+
+&lt;h5 id=&quot;advantages&quot;&gt;
+  Advantages
+&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Can run on a Mac&lt;/li&gt;
+&lt;li&gt;  Looks like an easy-to-use interface&lt;/li&gt;
+&lt;li&gt;  Supports skipping commercials&lt;/li&gt;
+&lt;li&gt;  Lots of potential add-ins&lt;/li&gt;
+&lt;li&gt;  Looks relatively easy to set-up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;disadvantages&quot;&gt;
+  Disadvantages
+&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Software is $80&lt;/li&gt;
+&lt;li&gt;  We would have to buy a HD tuner stick to try it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Total cost for first 2 years: ~$150 (including one-time HD tuner purchase)&lt;/p&gt;
+
+&lt;h3 id=&quot;mythtv&quot;&gt;
+  &lt;a href=&quot;http://www.mythtv.org/&quot;&gt;MythTV&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;MythTV is a mature open-source project. We would need to pay $20 a year for a Schedules Direct subscription.&lt;/p&gt;
+
+&lt;h5 id=&quot;advantages&quot;&gt;
+  Advantages
+&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Large group of users&lt;/li&gt;
+&lt;li&gt;  Supporting an Open Source project&lt;/li&gt;
+&lt;li&gt;  Excellent documentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;disadvantages&quot;&gt;
+  Disadvantages
+&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Does not natively support OS X. I would have to partition our hard drive. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Total cost for first 2 years: ~$110&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GMailThis for Google Apps</title>
+   <link href="http://juliakm.github.io/2009/02/22/gmailthis-google-apps/"/>
+   <updated>2009-02-22T06:10:35-05:00</updated>
+   <id>http://juliakm.github.io/2009/02/22/gmailthis-google-apps</id>
+   <content type="html">&lt;p&gt;I recently tried to set up the really useful GMailThis! bookmarklet for a Google Apps email site and found that I had to slightly change the code to get it working. The original Javascript is at http://contrapants.org/blog/2005/07/gmailthis.html. Here it is: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&amp;lt;a href=&amp;quot;javascript:popw=&amp;#39;&amp;#39;;Q=&amp;#39;&amp;#39;;x=document;y=window;if(x.selection) {Q=x.selection.createRange().text;} else if (y.getSelection) 
+{Q=y.getSelection();} else if (x.getSelection) {Q=x.getSelection();}popw = y.open(&amp;#39;https://mail.google.com/mail?view=cm&amp;amp;
+tf=0&amp;amp;to=&amp;amp;su=&amp;#39; + escape(document.title) + &amp;#39;&amp;amp;body=&amp;#39; + escape(Q) + escape(&amp;#39;\n&amp;#39;) + 
+escape(location.href),&amp;#39;gmailForm&amp;#39;,&amp;#39;scrollbars=yes,width=680,height=510,top=175,left=75,status=no,resizable=yes&amp;#39;);if (!document.all)
+ T = setTimeout(&amp;#39;popw.focus()&amp;#39;,50);void(0);&amp;quot;&amp;gt;GmailThis!&amp;lt;/a&amp;gt; 
+&lt;/code&gt; For my Google App, I had to change the line &lt;strong&gt;https://mail.google.com/mail&lt;/strong&gt; to &lt;strong&gt;http://mail.google.com/a/mysite.org/mail/&lt;/strong&gt;. Here&amp;#39;s a working bookmarklet for a site anexample.org. &lt;code&gt;
+&amp;lt;a href=&amp;quot;javascript:popw=&amp;#39;&amp;#39;;Q=&amp;#39;&amp;#39;;x=document;y=window;if(x.selection) {Q=x.selection.createRange().text;} else if (y.getSelection)
+ {Q=y.getSelection();} else if (x.getSelection) {Q=x.getSelection();}popw = y.open(&amp;#39;http://mail.google.com/a/anexample.org
+/mail/?view=cm&amp;amp;fs=1&amp;amp;tf=1&amp;amp;to=&amp;amp;su=&amp;#39; + escape(document.title) + &amp;#39;&amp;amp;body=&amp;#39; + escape(Q) + escape(&amp;#39;\n&amp;#39;) + escape(location.href) + 
+&amp;#39;&amp;amp;zx=RANDOMCRAP&amp;amp;shva=1&amp;amp;disablechatbrowsercheck=1&amp;amp;
+ui=1&amp;#39;,&amp;#39;gmailForm&amp;#39;,&amp;#39;scrollbars=yes,width=680,height=510,top=175,left=75,status=no,resizable=yes&amp;#39;);if (!document.all) T = 
+setTimeout(&amp;#39;popw.focus()&amp;#39;,50);void(0);&amp;quot;&amp;gt;GmailThis!&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Transferring an AOL Address Book to Apple's Address Book</title>
+   <link href="http://juliakm.github.io/2009/02/15/transferring-aol-address-book-apple039s-address-book/"/>
+   <updated>2009-02-15T15:45:23-05:00</updated>
+   <id>http://juliakm.github.io/2009/02/15/transferring-aol-address-book-apple039s-address-book</id>
+   <content type="html">&lt;p&gt;My mom and dad recently moved from using AOL for email to using Apple’s Mail program. However, they couldn’t figure out how to transfer their AOL contact list to Apple’s Address Book. AOL does not provide any type of export functionality. Here are the steps I took to transfer their records to Apple’s address book. &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Logged into AOL online and switched to the Accessible Version. There is a link to switch that’s part of the AOL mail footer. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Selected “Contacts” in the left navigation. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Went through each page of the address book and selected and then copied the table with Name, Email, and Phone columns into a text document. I used TextMate for this but I could have used any text editor. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Went through the text document and deleted the “[tab] Edit” links. Also checked to make sure that my document was consistently tab delimited. There should be a table between each field and a return at the end of each line. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Saved the file as a text document with a .txt extension. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Opened the txt file in Numbers. I could have also used OpenOffice. I then went through and deleted any rows that I didn’t want to transfer to my new Address Book. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Saved the new spreadsheet as a .csv file (Comma Separated File). &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Imported the .csv file into Address Book using File &amp;gt; Import &amp;gt; Text File.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Paging NikLP: Deciding between CCK Fields and Taxonomy</title>
+   <link href="http://juliakm.github.io/2008/10/16/paging-niklp-deciding-between-cck-fields-and-taxonomy/"/>
+   <updated>2008-10-16T15:38:42-04:00</updated>
+   <id>http://juliakm.github.io/2008/10/16/paging-niklp-deciding-between-cck-fields-and-taxonomy</id>
+   <content type="html">&lt;p&gt;I&amp;#39;m trying to decide between using a CCK field or taxonomy to classify content on a new site. We plan to have various node types (video, podcasts, forum topics, news articles, courses, etc.) and want to be able to dynamically pull together all nodes with the same tag in a page. There will be dynamic pages for both universities and topics. The topics will have a hierarchy. For example:&lt;/p&gt;
+
+&lt;p&gt;Campus Operations (located at www.mysite.com/topic/campus-operations) — Climate (located at www.mysite.com/topic/campus-operations/climate) ——Greenhouse Gas Inventories (located at www.mysite.com/topic/campus-operations/climate/greenhouse-gas-inventories)&lt;/p&gt;
+
+&lt;p&gt;As detailed above, Campus Operations, Climate, and Greenhouse Gas Inventories should each have their own page. I would also be able to see that Greenhouse Gas Inventories has the parent page Climate and that its parent is Campus Operations. &lt;a href=&quot;/resources/rc_topicpage.pdf&quot;&gt;Here’s a very rough example topic page&lt;/a&gt; and a &lt;a href=&quot;/resources/rc_schoolpage.pdf&quot;&gt;university one&lt;/a&gt;. I would also like to be able to associate one page with multiple parents. For example, Greenhouse Gas Inventories may also have a parent page of Campus Inventories. Additionally, it should be easy to generate a dynamic listing of topics in their hierarchy with links to the topic pages. &lt;/p&gt;
+
+&lt;p&gt;If associating topic pages with more than one parent page is too difficult, then changing parent topics should at least be easy to change. For example, I might want to change the tag Greenhouse Gas Inventories to GHG Inventories and then have all of the content with the old tag now be tagged with the new term. Using CCK fields, I’ve had problems with this in the past. &lt;/p&gt;
+
+&lt;p&gt;If I use a taxonomy, I&amp;#39;ll probably wind up with at least 4 levels.&lt;/p&gt;
+
+&lt;p&gt;Topic A —Topic AB ——-Topic ABC ———-Topic ABCD&lt;/p&gt;
+
+&lt;p&gt;It needs to be easy for administrators to add new topics sub-topics. We may also want to let users tag content. However, I can imagine that a potential user may take one look at our complex taxonomy and run for the hills. I understand that one option for presenting taxonomy to users may be to use something like &lt;a href=&quot;http://drupal.org/project/content_taxonomy&quot;&gt;Content Taxonomy&lt;/a&gt; and make the interface simpler. &lt;/p&gt;
+
+&lt;p&gt;To add even more complexity, I need to be able to make some taxonomy terms only visible to specific roles. &lt;/p&gt;
+
+&lt;p&gt;In summary, here are my requirements for topics: - Classify many node types in a hierarchical list with a minimum of four levels - Dynamically generate pages for some but not all terms (most likely using Views). The pages should have a specific layout. - It should be easy for users to tag new content - Administrators need to be able to edit the terms without causing problems later on - Some dynamically-generated pages should only be visible to users with specific roles&lt;/p&gt;
+
+&lt;h3 id=&quot;and_there8217s_more8230&quot;&gt;
+  And there’s more…
+&lt;/h3&gt;
+
+&lt;p&gt;In addition to a topic taxonomy, I will need to build a taxonomy (or CCK field) for universities. Ideally, I would be able to easily pull all universities in California with greenhouse gas inventories. I’m thinking that the best approach for this will be to have a either a cck nodereference field for universities where each university has a node or a taxonomy of U.S. universities broken out by location. If I went with a nodereference field, then the university nodes would have to have a location cck field. &lt;/p&gt;
+
+&lt;p&gt;The goal would be to easily generate links like this: www.mysite.com/schools/california/campus-operations/climate/greenhouse-gas-inventory&lt;/p&gt;
+
+&lt;p&gt;I think that this can be achieved by views, but I don’t want to overlook any ways of structuring the data that will make for easier querying later on. &lt;/p&gt;
+
+&lt;p&gt;Here are a few articles that have added to my confusion: http://www.darcynorman.net/2008/04/24/complex-hierarchical-taxonomies-in-drupal/ http://www.johnandcailin.com/blog/cailin/drupal-cck-vs-taxonomy&lt;/p&gt;
+
+&lt;p&gt;It seems like I have a few options:&lt;/p&gt;
+
+&lt;p&gt;1) Create Multiple CCK fields or CCK fields for each level of my topic hierarchy and also have a cck nodereference field for universities. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages:&lt;/strong&gt; - CCK fields can be hidden or shown for different node types, which is easier for end users to understand.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantages:&lt;/strong&gt; - Even if I use hierarchical select CCK fields, CCK doesn’t have the built in advantages of taxonomy. Displaying breadcrumbs won’t be as easy, there is not a set of API functions ready to be called. &lt;/p&gt;
+
+&lt;p&gt;2) Have a taxonomy for topics and also use a taxonomy for universities broken down by location. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages:&lt;/strong&gt; - Taxonomies can easily handle the 4-level hierarchy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantages:&lt;/strong&gt; - Commits to using taxonomy/term link structure (not sure about this) - Taxonomies may seem overly complex to end users - Long-term it might not make sense to classify universities by location. Some schools have multiple location. &lt;/p&gt;
+
+&lt;p&gt;3) Have a taxonomy for topics and use a cck nodereference field for universities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages:&lt;/strong&gt; - Taxonomies can easily handle the 4-level hierarchy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantages:&lt;/strong&gt; - Requires creating a node for each university. Some of these nodes will have very little data. - Taxonomies may seem overly complex to end users&lt;/p&gt;
+
+&lt;p&gt;4) Have a taxonomy for topics, a cck field for universities, and a field for school location&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages:&lt;/strong&gt; - Lets me pull information by location that doesn’t necessarily relate to a school&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantages&lt;/strong&gt; - It could be cumbersome to associate universities and locations later on - Taxonomies may seem overly complex to end users&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;
+  Conclusion
+&lt;/h3&gt;
+
+&lt;p&gt;I think that it makes the most sense to use a taxonomy for the topics and a nodereference field for universities. In the university node, there will be a field for location. This will require creating approximately 4,000 university nodes, which may lead to performance problems later on.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Drupal Talk Tomorrow</title>
+   <link href="http://juliakm.github.io/2008/09/03/drupal-talk-tomorrow/"/>
+   <updated>2008-09-03T06:48:03-04:00</updated>
+   <id>http://juliakm.github.io/2008/09/03/drupal-talk-tomorrow</id>
+   <content type="html">&lt;p&gt;I&amp;#39;ll be giving a very brief overview of Drupal tomorrow at our &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://drupal.meetup.com/19/&quot;&gt;first Drupal meetup&lt;/a&gt; in Durham. Here&amp;#39;s my presentation:&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Adding author name to the Drupal search index</title>
+   <link href="http://juliakm.github.io/2008/04/01/adding-author-name-drupal-search-index/"/>
+   <updated>2008-04-01T07:04:11-04:00</updated>
+   <id>http://juliakm.github.io/2008/04/01/adding-author-name-drupal-search-index</id>
+   <content type="html">&lt;p&gt;Awhile back, I wanted to add author names to the Drupal search index. After poking around a bit, I found that this was actually pretty easy. I created a new module called custom_helper and in it put the following function: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&amp;lt;?php
+//Adding author name to the search index
+function custom_helper_nodeapi($node, $op, $arg = 0) {
+  switch ($op) {
+    case &amp;#39;update index&amp;#39;:
+      if ($node-&amp;gt;uid) {
+        $user = user_load(array(&amp;#39;uid&amp;#39; =&amp;gt; $node-&amp;gt;uid));
+        return $user-&amp;gt;name;
+      }
+  }
+?&amp;gt;
+&lt;/code&gt; One thing to keep in mind is that if you do this, then you will need to re-index all of your previously indexed nodes if you wanted them to be indexed by author name.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Displaying Nodeprofile Fields for a User within a Node</title>
+   <link href="http://juliakm.github.io/2008/02/03/displaying-nodeprofile-fields-user-within-node/"/>
+   <updated>2008-02-03T06:49:33-05:00</updated>
+   <id>http://juliakm.github.io/2008/02/03/displaying-nodeprofile-fields-user-within-node</id>
+   <content type="html">&lt;p&gt;I was banging my head against the wall this weekend trying to remember how to display nodeprofile fields with user information. It&amp;#39;s actually really easy and I thought I should write a post about how to do it for the next time I forget. In this case, I have a content type called &amp;#39;myuserprofile&amp;#39; that is selected as the content type to use for nodeprofiles. In my myuserprofile content type, I have a field for users to enter their favorite food. There are two easy ways of displaying this information. First, we can grab and display it within a node. For example, say that I want to display a user&amp;#39;s favorite food on a page if that user is logged in. To do so, the following would work: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;?php
+global $user;
+//checking if a user is logged in
+if ($user-&amp;gt;uid):
+//load the nodeprofile user profile for the currently logged-in user
+$profile = node_load(array(&amp;#39;type&amp;#39;=&amp;gt;&amp;#39;myuserprofile&amp;#39;, &amp;#39;uid&amp;#39;=&amp;gt;$user-&amp;gt;uid));
+//print out the user&amp;#39;s favorite food
+print $profile-&amp;gt;field_favorite_food[0][&amp;#39;value&amp;#39;];
+?&amp;gt;
+&lt;/code&gt; A second approach to displaying this information, is to put the following in the _phptemplate_variables function of template.php. &lt;/p&gt;
+
+&lt;p&gt;`
+&amp;lt;?php 
+function &lt;em&gt;phptemplate&lt;/em&gt;variables($hook, $vars = array()) {
+switch ($hook) {
+    case &amp;#39;node&amp;#39;:
+      //checking if a user is logged in
+    if ($user-&amp;gt;uid):&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    $vars[&amp;#39;profile&amp;#39;] = node_load(array(&amp;#39;type&amp;#39;=&amp;gt;&amp;#39;myuserprofile&amp;#39;, &amp;#39;uid&amp;#39;=&amp;gt;$user-&amp;gt;uid));
+    $vars[&amp;#39;favorite_food&amp;#39;] = $vars[&amp;#39;profile&amp;#39;]-&amp;gt;field_favorite_food[0][&amp;#39;value&amp;#39;];
+endif;
+break;
+}
+return $vars;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;}
+?&amp;gt;
+` Then, I can display the favorite food information on a page with: &lt;/p&gt;
+
+&lt;p&gt;`
+&amp;lt;?php 
+global $user;
+print $favorite_food;
+?&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Drupal Permissions Issues: A Debugging Checklist</title>
+   <link href="http://juliakm.github.io/2008/01/12/drupal-permissions-issues-debugging-checklist/"/>
+   <updated>2008-01-12T10:15:24-05:00</updated>
+   <id>http://juliakm.github.io/2008/01/12/drupal-permissions-issues-debugging-checklist</id>
+   <content type="html">&lt;p&gt;Every once in awhile, when working on a Drupal site, my content either disappears or I cannot log-in. At this point, I usually get rather angry and start thinking of worse case scenarios. What if I can never log into my site again? What if anonymous users can&amp;#39;t read articles? In a rare moment of clarity, I put together the following Drupal permissions debugging checklist. I hope that you find it as useful as I have. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Check user access control and make sure that all users can &amp;quot;access content&amp;quot;&lt;/strong&gt; &lt;em&gt;Path:&lt;/em&gt; mysite.com/admin/user/access Often, when installing a module, I accidentally change key permissions. For example, a couple of times I have allowed anonymous users to &amp;quot;access content&amp;quot; but not logged-in ones. Although my access control permissions are usually not the problem, its always best to check them before moving onto the next approaches. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Check input filter roles&lt;/strong&gt; &lt;em&gt;Path:&lt;/em&gt; mysite.com/admin/settings/filters One problem with having a lot of input filters is that you can easily mess up the permissions of a particular filter. If a user does not have permission to use an input filter, then they cannot edit content that can only be edited with that input filter. To give a real-world example, say that I set up a new input filter called &amp;quot;tinyMCE.&amp;quot; Next, I set up my permissions for tinyMCE so that only my webmaster role can use the tinyMCE input filter. While doing this, I also set permissions so that only the webmaster can use my &amp;quot;Filtered HTML&amp;quot; and &amp;quot;Full HTML&amp;quot; input filters. Next, I set up a new role called &amp;quot;intern&amp;quot; and let the intern edit content. However, my intern reports that he cannot access any of the edit pages. Why? He needs to have access to the &amp;quot;tinyMCE&amp;quot; input filter. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Clear site cache and views cache&lt;/strong&gt; &lt;em&gt;Path for Views Cache:&lt;/em&gt; mysite.com/admin/build/views/tools Sometimes site cache and views cache can result in strange permissions problem. Site cache can be reset with the Developer module &amp;quot;Empty cache&amp;quot; menu option. To have this appear, you need to enable the Devel block. In addition to clearing the site cache, sometimes it helps to clear the ciews cache. This is especially true if your permissions problems started after you edited a view. The option to clear views cache can be found in the Tools section of the ciews administration page. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. If all else fails, rebuild node permissions&lt;/strong&gt; &lt;em&gt;Path:&lt;/em&gt; mysite.com/admin/content/node-settings/rebuild Sometimes Drupal node permissions get corrupted. When this happens, rebuilding the node permissions can solve the problem. Please be advised that if you have a lot of nodes, this can take a very long time. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. The Last Step: Looking for Module-Specific Issues&lt;/strong&gt; &lt;em&gt;Path for Update Script:&lt;/em&gt; mysite.com/update.php If none of the previous steps work, I usually try to figure out if the problem is caused by a module that I just installed. First, if I recently installed a new version of a module, I make sure that I have run the update.php script. Next, I generally disable the module, and then repeat step three. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. The Bonus Step: Backtrace&lt;/strong&gt; &lt;em&gt;Backtrace Module:&lt;/em&gt; http://drupal.org/project/trace Sebastien Hinderer wrote in to suggest using PHP&amp;#39;s backtrace function as an additional debugging tool. You can use the &lt;a href=&quot;http://drupal.org/project/trace&quot;&gt;Trace module&lt;/a&gt; and/or the &lt;a href=&quot;http://php.net/manual/en/function.debug-print-backtrace.php&quot;&gt;debug_print_backtrace() PHP function&lt;/a&gt;. Using backtrace, you can identify which Drupal function triggered an &amp;quot;Access Denied&amp;quot; message and save lots of debugging time. Please let me know if there are other ways of hunting down and fixing permissions issues that you know about.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Drupal Theming: Create a Subpage Template that Applies to Multiple Pages on a Newspaper Site</title>
+   <link href="http://juliakm.github.io/2008/01/06/drupal-theming-create-subpage-template-applies-multiple-pages-newspaper-site/"/>
+   <updated>2008-01-06T07:13:31-05:00</updated>
+   <id>http://juliakm.github.io/2008/01/06/drupal-theming-create-subpage-template-applies-multiple-pages-newspaper-site</id>
+   <content type="html">&lt;p&gt;While working on a new Drupal site, I needed to set the same &amp;quot;subsection&amp;quot; template for multiple pages. The site is for an online newspaper and I wanted to use a new template for each of the section homepages. A good example of a similar approach is on CNN.com, where the &lt;a href=&quot;http://www.cnn.com/US/&quot;&gt;US section page&lt;/a&gt; looks different than both the &lt;a href=&quot;http://www.cnn.com/&quot;&gt;homepage&lt;/a&gt; and the &lt;a href=&quot;http://www.cnn.com/2008/US/weather/01/06/california.storm.ap/index.html&quot;&gt;article pages&lt;/a&gt;. In past projects, I&amp;#39;ve confused myself with template names. Six months later, I have trouble remembering what page-node-1432.tpl.php actually controls. So, this time, I set out to have better named template files and to have the same template file control multiple pages. So far, this has made it easier for both the project graphic designer and I. Here&amp;#39;s the code that I put in my template.php file to make page-subsection.tpl.php the template file for node/17658, node/17638, and node/17628. `
+&amp;lt;?php&lt;/p&gt;
+
+&lt;p&gt;function &lt;em&gt;phptemplate&lt;/em&gt;variables($hook, $vars = array()) {
+ switch ($hook) {
+    case &amp;#39;page&amp;#39;:
+      if((arg(0)==’node’) &amp;amp;&amp;amp; ((arg(1) == ‘17658’) || (arg(1) == ‘17638’) || (arg(1) == ‘17628’))){ 
+        $vars‘template_files’ = ‘page-subsection’; 
+        }
+    }
+      return $vars;
+}
+?&amp;gt;
+` This code is effectively saying, if the page you are on has the node id 17658, 17638, or 17628, use the page template page-subsection.tpl.php.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Using Imagecache and CCK Imagefield to Add an Image in Drupal</title>
+   <link href="http://juliakm.github.io/2007/08/20/using-imagecache-and-cck-imagefield-add-image-drupal/"/>
+   <updated>2007-08-20T16:11:17-04:00</updated>
+   <id>http://juliakm.github.io/2007/08/20/using-imagecache-and-cck-imagefield-add-image-drupal</id>
+   <content type="html">&lt;p&gt;Figuring out how to get Drupal&amp;#39;s &lt;a href=&quot;http://drupal.org/project/imagecache&quot;&gt;imagecache module&lt;/a&gt; to work with &lt;a href=&quot;http://drupal.org/project/imagefield&quot;&gt;CCK&amp;#39;s imagefield&lt;/a&gt; can about as fun as a trip to the dentist. Although I found a lot of articles analyzing the benefits of using Image vs. CCK imagefield, I could not find one source with clear instructions on how to implement imagefield with imagecache. So, here&amp;#39;s my stab at an explanation of how to get imagecache to work with imagefield.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install and activate CCK, imagefield, and imagecache. Go to Admin &amp;gt; Content types and select the content type that you want to add an image field to. Click on &amp;quot;Add field&amp;quot; to add an image field. Then, give your field a title, select Image and create your field. The name of my field is &amp;quot;related_images.&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/u1/createfield.png&quot; alt=&quot;create cck image field&quot; height=&quot;205&quot; width=&quot;278&quot; /&gt; 
+2. Set your imagecache presets at Site Building &amp;gt; Image cache. My preset is has the namespace &amp;quot;homepage&amp;quot; and is set to resize with a width and height of 100. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/u1/namespace.png&quot; alt=&quot;drupal preset namespace&quot; height=&quot;321&quot; width=&quot;500&quot; /&gt; 
+3. Go back to the content type that you added a CCK image to by selecting Content Management &amp;gt; Content types. Click on the name of the content type you previously added an image to. In the content type&amp;#39;s menu, select &amp;quot;Display fields.&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/u1/displayfields.png&quot; alt=&quot;display cck image fields&quot; height=&quot;94&quot; width=&quot;415&quot; /&gt; 
+4. Look to the right of the listing for the image field you created. Set the teaser and body to the namespace you set in step 2. My namespace is &amp;quot;homepage.&amp;quot; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/u1/chooselook.png&quot; alt=&quot;set display of cck image&quot; height=&quot;66&quot; width=&quot;500&quot; /&gt; 
+5. Add a new article of content using the content type that has your new image field. Upload an image as part of the post and make sure that your image displays at the width and height you set in &amp;quot;Display fields.&amp;quot;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;If you want to have your image display in a template such as node.tpl.php, the following code will print the image and image title for a CCK image field called field_related_images: &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;`
+&amp;lt;?php print $node-&amp;gt;field&lt;em&gt;related&lt;/em&gt;images[0][&amp;#39;view&amp;#39;]; ?&amp;gt; &lt;/p&gt;
+
+&lt;p&gt;&amp;lt;?php print $node-&amp;gt;field&lt;em&gt;related&lt;/em&gt;images[0][&amp;#39;title&amp;#39;];  ?&amp;gt;
+`&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Javascript Blogroll Randomizer</title>
+   <link href="http://juliakm.github.io/2007/08/15/javascript-blogroll-randomizer/"/>
+   <updated>2007-08-15T15:50:32-04:00</updated>
+   <id>http://juliakm.github.io/2007/08/15/javascript-blogroll-randomizer</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://chessconfessions.blogspot.com/&quot;&gt;Eric&lt;/a&gt; uses Blogger and wanted to have a random list of 10 blogs from his blogroll display each time someone visited his blog. Since Blogger doesn&amp;#39;t let its members upload PHP files, I used the following Javascript to create a random blog listing for him. The code is a slightly modified version of what I found &lt;a href=&quot;http://www.wdil.org/reuseables/randomizer-javascript-menu&quot;&gt;here&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8/28/2007 Update:&lt;/strong&gt; Be sure to include the backslashes before single quotes and apostrophes. &lt;a href=&quot;http://www.chickengirl.net/&quot;&gt;Chicken Girl&lt;/a&gt; wrote a great explanation of why this is important at &lt;a href=&quot;https://www.blogger.com/comment.g?blogID=1704170106558126102&amp;amp;postID=2163460307242887737&quot;&gt;Cranky Fitness&lt;/a&gt;. `&lt;/p&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Remembering Lavinia Thomson</title>
+   <link href="http://juliakm.github.io/2007/07/25/remembering-lavinia-thomson/"/>
+   <updated>2007-07-25T04:02:22-04:00</updated>
+   <id>http://juliakm.github.io/2007/07/25/remembering-lavinia-thomson</id>
+   <content type="html">&lt;p&gt;Eric and I have spent the last couple days in New Hampshire mourning the loss of his grandmother, &lt;a href=&quot;http://www.townonline.com/amesbury/obituaries/x113133470&quot;&gt;Lavinia Thomson&lt;/a&gt;. During the service, the topic of community was frequently mentioned. Lavinia, who the family called Nana, lived on a main road and could often be seen waving from a chair on her lawn at passing cars and chatting with neighbors. It is amazing to think that this small act brightened the day of so many passing motorists. At the service, someone mentioned that Lavinia was one of the the last of an era that valued community and kindness. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;She will be remembered as a wonderful mother, mother-in-law, nana and friend. She loved to sing, dance and most of all spend time with her family. She always had a smile and a friendly word for everyone.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I feel lucky that I had the opportunity to meet Nana. She will be missed.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting Drupal's Search Module to Work on Dreamhost</title>
+   <link href="http://juliakm.github.io/2007/06/30/getting-drupals-search-module-work-dreamhost/"/>
+   <updated>2007-06-30T15:16:50-04:00</updated>
+   <id>http://juliakm.github.io/2007/06/30/getting-drupals-search-module-work-dreamhost</id>
+   <content type="html">&lt;p&gt;One of my first frustrations with Drupal was that I could not seem to get the search module to work. I searched my new Drupal site again and again and was irked to find that each search returned the unhelpful response, &amp;quot;Your search yielded no results.&amp;quot; After searching the forums, I realized out that the search module only works if you have set up a cron job on your server for cron.php. The easiest way to do this via Dreamhost is to go to the control panel (panel.dreamhost.com). Here are the steps to take once there: 1. Click on &amp;quot;Goodies&amp;quot; on the left navigation menu of your control panel. At the bottom of the new menu that just appeared, select &amp;quot;Crob Jobs.&amp;quot; 2. Click &amp;quot;Add New Cron Job.&amp;quot; 3. On the next screen, create a title for your cron job such as drupancron and enter the following code in the &amp;quot;Command to Run&amp;quot; box: &lt;code&gt;
+wget http://www.yoursite.com/cron.php
+&lt;/code&gt; Make sure to replace &amp;quot;yoursite&amp;quot; with the name of your site. 4. Mark the job as &amp;quot;Enabled&amp;quot; and select how frequently your cron job should run. If you post infrequently, once a day should be sufficient. Otherwise, you should consider running the job hourly. 5. Wait an hour or a day to make sure that your cron job is running effectively by searching for a term that you know will have search results.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Exploring Drupal One Module at a Time</title>
+   <link href="http://juliakm.github.io/2007/06/24/exploring-drupal-one-module-time/"/>
+   <updated>2007-06-24T17:56:20-04:00</updated>
+   <id>http://juliakm.github.io/2007/06/24/exploring-drupal-one-module-time</id>
+   <content type="html">&lt;p&gt;Although Wordpress has served me well, I decided that it might be fun to try and rebuild my site using Drupal. For the most part, switching has been easy. I started off with a version on my local computer using MAMP and then transitioned to my Dreamhost account. Dreamhost&amp;#39;s databases are slow running Wordpress, and seem to be just as slow running Drupal. But, I didn&amp;#39;t expect a speedier site with Drupal. After playing around with &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://drupal.org/project/zen&quot;&gt;Zen&lt;/a&gt;, I decided to start with the &lt;a href=&quot;http://drupal.org/project/foundation&quot;&gt;Foundation theme&lt;/a&gt;. I was to reproduce my old Wordpress design in about 4 hours. That theme was a very modified version of &lt;a href=&quot;http://www.headsetoptions.org/&quot;&gt;Skuteczni&lt;/a&gt;. The hardest part of figuring out Drupal was knowing what modules to install. When I first installed Wordpress, I found that I could put together a decent blog without having to install a bunch of plugins. With Drupal, doing almost anything requires a module. The advantage of this is that the core Drupal download is quite small. The disadvantage is that figuring out what modules to install requires quite a bit of searching the forums. Additionally, one of the strange features of Drupal is that the modules that come with your first installation are not all enabled. The core installation is divided into required and optional modules. However, a lot of the typical &amp;quot;blog&amp;quot; features are in the optional modules. For example, you need to turn on the Aggregator module to generate RSS feeds. In addition to enabling a number of optional modules (Blog, Comment, Menu, Path, and Search), I downloaded a bunch of modules. One of the first modules I downloaded was wp2drupal, which I would not recommend using. The wp2drupal module is designed to copy Wordpress posts into your Drupal site. Although I eventually got this module working, in the process I ran into a number of blank screens. From what I read on the forums, it seems like wp2drupal is designed for Drupal 4.7 and that getting it to work on Drupal 5 is not a seamless process. I also downloaded CCK and Views. CCK lets you define your own content types and is a fantastic resource. Views is useful for creating specific lists such as a list of most recent posts. I am sure that Views does much more, but I have not fully delved into it yet. I haven&amp;#39;t added any Views to my site yet, but I plan to later on. One of my frustrations while installing Drupal was that I could not seem to get rid of the &amp;quot;Julia&amp;#39;s Blog&amp;quot; link at the bottom of each blog post. After searching through the documentation, it seemed like I had three options. I could hide the text with CSS, modify the core code, or, change the nodetype of my content from blog to story. I decided to change the node type using the very helpful &lt;a href=&quot;http://drupal.org/project/nodetype&quot;&gt;nodetype module&lt;/a&gt;. My last step in setting up my site was to learn about and implement Drupal SEO best practices. I found &lt;a href=&quot;http://blamcast.net/articles/drupal-seo&quot;&gt;a couple&lt;/a&gt; &lt;a href=&quot;http://devbee.com/drupal_seo&quot;&gt;good posts&lt;/a&gt; on the topic and downloaded the &lt;a href=&quot;http://drupal.org/project/pathauto&quot;&gt;pathauto&lt;/a&gt;, &lt;a href=&quot;http://drupal.org/project/search404&quot;&gt;search404&lt;/a&gt;, &lt;a href=&quot;http://drupal.org/project/nodewords&quot;&gt;nodewords&lt;/a&gt;, &lt;a href=&quot;http://drupal.org/project/nodewords&quot;&gt;page_title&lt;/a&gt;, and &lt;a href=&quot;http://drupal.org/project/gsitemap&quot;&gt;gsitemap&lt;/a&gt; modules. In the next couple of weeks, I hope to get the site search to work more effectively and to add some cool Views. I will try to post notes on my progress.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

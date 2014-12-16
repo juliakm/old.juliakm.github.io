@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Drupal Permissions Issues: A Debugging Checklist &middot; JuliaKM
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          JuliaKM
+        </a>
+      </h1>
+      <p class="lead">A collection of odd things. You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/archive/">Archive</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+      <!--<a class="sidebar-nav-item" href="https://github.com/poole/hyde/archive/v2.1.0.zip">Download</a>
+      <a class="sidebar-nav-item" href="https://github.com/poole/hyde">GitHub project</a>-->
+      <span class="sidebar-nav-item">Currently v2.1.0</span>
+    </nav>
+
+    <p>&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Drupal Permissions Issues: A Debugging Checklist</h1>
+  <span class="post-date">12 Jan 2008</span>
+  <p>Every once in awhile, when working on a Drupal site, my content either disappears or I cannot log-in. At this point, I usually get rather angry and start thinking of worse case scenarios. What if I can never log into my site again? What if anonymous users can&#39;t read articles? In a rare moment of clarity, I put together the following Drupal permissions debugging checklist. I hope that you find it as useful as I have. </p>
+
+<p><strong>1. Check user access control and make sure that all users can &quot;access content&quot;</strong> <em>Path:</em> mysite.com/admin/user/access Often, when installing a module, I accidentally change key permissions. For example, a couple of times I have allowed anonymous users to &quot;access content&quot; but not logged-in ones. Although my access control permissions are usually not the problem, its always best to check them before moving onto the next approaches. </p>
+
+<p><strong>2. Check input filter roles</strong> <em>Path:</em> mysite.com/admin/settings/filters One problem with having a lot of input filters is that you can easily mess up the permissions of a particular filter. If a user does not have permission to use an input filter, then they cannot edit content that can only be edited with that input filter. To give a real-world example, say that I set up a new input filter called &quot;tinyMCE.&quot; Next, I set up my permissions for tinyMCE so that only my webmaster role can use the tinyMCE input filter. While doing this, I also set permissions so that only the webmaster can use my &quot;Filtered HTML&quot; and &quot;Full HTML&quot; input filters. Next, I set up a new role called &quot;intern&quot; and let the intern edit content. However, my intern reports that he cannot access any of the edit pages. Why? He needs to have access to the &quot;tinyMCE&quot; input filter. </p>
+
+<p><strong>3. Clear site cache and views cache</strong> <em>Path for Views Cache:</em> mysite.com/admin/build/views/tools Sometimes site cache and views cache can result in strange permissions problem. Site cache can be reset with the Developer module &quot;Empty cache&quot; menu option. To have this appear, you need to enable the Devel block. In addition to clearing the site cache, sometimes it helps to clear the ciews cache. This is especially true if your permissions problems started after you edited a view. The option to clear views cache can be found in the Tools section of the ciews administration page. </p>
+
+<p><strong>4. If all else fails, rebuild node permissions</strong> <em>Path:</em> mysite.com/admin/content/node-settings/rebuild Sometimes Drupal node permissions get corrupted. When this happens, rebuilding the node permissions can solve the problem. Please be advised that if you have a lot of nodes, this can take a very long time. </p>
+
+<p><strong>5. The Last Step: Looking for Module-Specific Issues</strong> <em>Path for Update Script:</em> mysite.com/update.php If none of the previous steps work, I usually try to figure out if the problem is caused by a module that I just installed. First, if I recently installed a new version of a module, I make sure that I have run the update.php script. Next, I generally disable the module, and then repeat step three. </p>
+
+<p><strong>6. The Bonus Step: Backtrace</strong> <em>Backtrace Module:</em> http://drupal.org/project/trace Sebastien Hinderer wrote in to suggest using PHP&#39;s backtrace function as an additional debugging tool. You can use the <a href="http://drupal.org/project/trace">Trace module</a> and/or the <a href="http://php.net/manual/en/function.debug-print-backtrace.php">debug_print_backtrace() PHP function</a>. Using backtrace, you can identify which Drupal function triggered an &quot;Access Denied&quot; message and save lots of debugging time. Please let me know if there are other ways of hunting down and fixing permissions issues that you know about.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2011/04/19/112/">
+            Moving to a Content Management System: NCTech4Good Presentation and Resources
+            <small>19 Apr 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2009/11/09/building-drupal-forums-aashe/">
+            Building Drupal Forums at AASHE
+            <small>09 Nov 2009</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2009/09/20/drupalcamp-atlanta-presentation-why-do-drupal-projects-fail/">
+            Drupalcamp Atlanta Presentation: Why do Drupal Projects Fail?
+            <small>20 Sep 2009</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

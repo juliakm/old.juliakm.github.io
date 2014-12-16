@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            JuliaKM
+tagline:          'A collection of odd things'
+description:      'A collection of odd things. You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.'
+url:              http://juliakm.github.io
+baseurl:          /
+
+author:
+  name:           'Julia K-M'
+  url:            https://twitter.com/JuliaKM
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde

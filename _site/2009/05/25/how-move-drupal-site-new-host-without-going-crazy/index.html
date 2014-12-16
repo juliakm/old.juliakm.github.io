@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      How to Move a Drupal Site to a New Host Without Going Crazy &middot; JuliaKM
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          JuliaKM
+        </a>
+      </h1>
+      <p class="lead">A collection of odd things. You can also find me <a href="https://www.facebook.com/JuliaKM">other</a> <a href="http://www.linkedin.com/in/juliakm/">places</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/archive/">Archive</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+      <!--<a class="sidebar-nav-item" href="https://github.com/poole/hyde/archive/v2.1.0.zip">Download</a>
+      <a class="sidebar-nav-item" href="https://github.com/poole/hyde">GitHub project</a>-->
+      <span class="sidebar-nav-item">Currently v2.1.0</span>
+    </nav>
+
+    <p>&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">How to Move a Drupal Site to a New Host Without Going Crazy</h1>
+  <span class="post-date">25 May 2009</span>
+  <h3 id="preparation">
+  Preparation
+</h3>
+
+<p><em>A. Upgrade modules and Drupal core code</em></p>
+
+<p>Although it’s tempting to move your files and database quickly, I strongly recommend doing some preparation first. Before I move Drupal site, I always first check for any new Drupal core and module updates. If there are modules that need to be updated, I do the update before moving my site. The advantage of this is that it is easier later on to debug any problems that arise during the migration if you are already using the latest version of all Drupal code. </p>
+
+<p><em>B. Check your version of PHP and MySQL on the new and current host</em></p>
+
+<p>Some Drupal modules require PHP 5.x. I’ve run into problems before when I move over code to a new server that is running PHP 4.x. </p>
+
+<p>To check your PHP version, log into your new and old servers separately via ssh and run the following:</p>
+
+<p><code>php -v</code> 
+<em>Helpful advice from Scor in the comments:</em> The PHP CLI is not always installed and php -v might not work, or if it does it might be a different version than the one Apache runs. In any case that does not mean you cannot use Drupal on the server. Another way to check these things is to try to install a dummy Drupal core site and see if it works ok. 
+To check what version of MySQL you are using, open MySQL via the shell on your computer and type:</p>
+
+<p><code>status</code> 
+If you are running different versions of PHP and/or MySQL on your new and old servers, be sure to check for any incompatibilities with your modules. Any module that requires PHP 5.x should say so in the README.txt document. I highly recommend making sure that your new host uses PHP 5.x before switching. </p>
+
+<p>You can also check the PHP and MySQL versions of your old site via Drupal on the status page at admin/reports/status.</p>
+
+<h3 id="create_your_new_domain">
+  Create Your New Domain
+</h3>
+
+<p><em>C. Create your new domain at your new host</em></p>
+
+<p>Depending on your host, there are many ways that you could go about creating your domain. For most hosts, there will be a tool where you can define your new domain. It is important to note that creating your domain at your new host will not move your site. You will need to change your DNS records for that to happen. </p>
+
+<h3 id="moving_databases">
+  Moving Databases
+</h3>
+
+<p><em>D. Export your Drupal database using phpMyAdmin</em></p>
+
+<p><em>Note:</em> If you do not have phpMyAdmin and are not familiar with the command-line, an alternative option is to use the <a href="http://drupal.org/project/backup_migrate">Backup and Migrate module</a>. </p>
+
+<p>If you decide to use phpMyAdmin, I recommend truncating (emptying) the cache tables before you export your database. Go to all of the tables that start with cache_ and select the &quot;Empty&quot; tab. You can also manually clear Views Cache within the Views module. </p>
+
+<p>To export a database using phpMyAdmin, go to the database and select the “Export” tab. I recommend checking the “Extended inserts” checkbox and saving your export as a “gzipped” file. </p>
+
+<p><em>E. Create the database on your new host</em></p>
+
+<p>Depending on your hosting provider, there are many ways that you can go about creating a database. I recommend creating a database with the same name as the one on your old host. </p>
+
+<p><em>F. Import your SQL file</em></p>
+
+<p>Once you have a database on your new host, you can go and import the SQL file you downloaded to your desktop using phpMyAdmin. Select your new, empty database and then click the “Import” tab. Under the “File to import” option, you can upload your file. Once the file is uploaded, you can select “Go.”</p>
+
+<p><em>Warning</em>: If you have a large site, importing your file into your new database can take a really long time. Do not stop the operation. Just wait. If your import times out, then you will need to look at importing using command-line or a program like <a href="http://www.ozerov.de/bigdump.php">BigDump</a>. </p>
+
+<p><em>G. Moving files</em></p>
+
+<p>If you are not familiar with the command-line, you can download all of your files to your desktop and then upload them to your new host using FTP. However, this process can be very slow. I recommend using secure copy (scp) instead. </p>
+
+<p>To use scp, you first need to know where your files are on your current site. Log into your old site using ssh or ftp and get the path to your web directory from the server root. Once you are in the correct directory, enter:</p>
+
+<p><code>pwd</code> 
+Copy the output to somewhere you’ll be able to find again. </p>
+
+<p>Next, log into your new host and go to the directory where you want the new files to go. The following worked for me:</p>
+
+<p><code>scp -rp myusername@www.myoldhost.com:[/home/myusername/www.myoldhost.com/public_html]/* .</code> 
+The part after the colon, in brackets, is the path you just copied on your old site. <u>The brackets are just here as an example, do not include them when you scp.</u></p>
+
+<p>This command copies everything in the public_html folder on my old host to the current folder of my new host. the -p flag preserves permissions and the -r flag recursively copies so that you get the content of your folders.</p>
+
+<p>Be sure to check and make sure that the .htaccess file copied over as well. </p>
+
+<p><em>Note:</em> You could also use subversion, git or another version control system to download the new files provided that you host your repository on a different site than your old host. If you are doing this, then you probably have already moved past this step. 
+<h3 id="setting_up_and_testing_the_new_site">
+  Setting Up and Testing the New Site
+</h3></p>
+
+<p><em>H: Edit Settings.php</em> To correctly configure your database, edit your settings.php with your new domain information. Be sure to scan through settings.php and remove any settings that you may have added that only relate to your old host. </p>
+
+<p><em>I: Edit Your Hosts File</em></p>
+
+<p>You can test your site locally by editing your hosts file. By editing your hosts file, you will be able to see what your site looks like before making the DNS switch. </p>
+
+<p>I have a Mac and edit my hosts file in “private/etc/hosts.” To test it, I added a new line where the first column is the IP address of my new site and the second is the domain I’m testing. </p>
+
+<pre>IP address of new site      www.mydomainname.com
+69.123.11.11                www.juliakm.com
+</pre>
+
+<p>The hosts file is a little trickier to find on Windows machines.This Wikipedia article gives a list of host file locations for different operating systems.</p> 
+<em>J: Test your site locally</em></p>
+
+<p>Once you have your new site showing up using your hosts fix, make sure to test your new site. I recommend trying the following: </p>
+
+<ul>
+<li>  Log in</li>
+<li>  Check your site status at admin/reports/status</li>
+<li>  Create a post</li>
+<li>  Edit an existing post</li>
+<li>  Post a comment</li>
+<li>  View your module list at admin/build/modules/list</li>
+</ul>
+
+<p><em>K: Fix any problems</em></p>
+
+<p>A few problems that I’ve run into before are: </p>
+
+<ul>
+<li>  Not making my files/ directory writable</li>
+<li>  Not having the GD Library installed at my new host</li>
+</ul>
+
+<p>For the GD Library, you’ll have to talk to your new hosting provider. For the files directory, go to the directory above your files directory and enter via command-line: </p>
+
+<p><code>chmod -R 755 files</code> 
+If you are confused about the “chmod” command, search for it on Drupal.org. There is a wealth of information available there. </p>
+
+<p><em>L: Undo hosts file changes</em></p>
+
+<p>Go back to your hosts file and reverse any changes you made. </p>
+
+<p><em>M: Set up your cron job</em></p>
+
+<p>Depending on your familiarity with command-line, you can do this via crontab or a tool provided by your hosting company. If your hosting company does not have a tool and you do not want to touch the command-line, check out the <a href="http://drupal.org/project/poormanscron">Poorman’s Cron module</a>. </p>
+
+<h3 id="make_the_switch">
+  Make the Switch
+</h3>
+
+<p><em>N: Your last step is to switch your nameservers from your old site to new site.</em></p>
+
+<p>Your new hosting company should have provided you with nameservers that correspond to your new server. To point your site to these, you’ll need to go to your domain registrar and edit the DNS records. If your registrar is your old host, you can do this there. If you used another registrar such as GoDaddy, then you’ll need to edit the DNS records there. </p>
+
+<p><em>O: Wait 15 minutes to 48 hours and obsessively check “whois”</em></p>
+
+<p>It takes awhile for DNS changes to propagate. You’ll have to wait at least 15 minutes for the change to take place. Depending on where you live in the country and your registrar, it could take even longer. You can check and see if the switch has happened by typing the following into the command-line:</p>
+
+<p><code>host mysite.com</code> 
+Next, copy the IP address. Then do: </p>
+
+<p><code>whois IPAddress</code> 
+You can also check for whois information online using <a href="http://www.domaintools.com">DomainTools</a>. </p>
+
+<h3 id="pat_yourself_on_the_back">
+  Pat Yourself on the Back
+</h3>
+
+<p>Congratulations, you have now moved your Drupal site to a new host.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2011/04/19/112/">
+            Moving to a Content Management System: NCTech4Good Presentation and Resources
+            <small>19 Apr 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2009/11/09/building-drupal-forums-aashe/">
+            Building Drupal Forums at AASHE
+            <small>09 Nov 2009</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2009/09/20/drupalcamp-atlanta-presentation-why-do-drupal-projects-fail/">
+            Drupalcamp Atlanta Presentation: Why do Drupal Projects Fail?
+            <small>20 Sep 2009</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
