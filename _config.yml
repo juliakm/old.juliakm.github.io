@@ -1,9 +1,11 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:            redcarpet
+highlighter:         pygments
 
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 relative_permalinks: true
 
 # Setup
@@ -19,8 +21,11 @@ author:
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
-github:
-  repo:           https://github.com/poole/hyde
+# Custom vars
+version:             1.0.0
