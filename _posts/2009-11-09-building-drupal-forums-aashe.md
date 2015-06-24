@@ -21,19 +21,19 @@ Before we started work on the forums, my co-workers scoured other web forums aro
   Core Forum Module Functionality
 </h2>
 
-*Create forum posts and Respond to forum posts via comments* 
+*Create forum posts and Respond to forum posts via comments*  
 Using the core Forum module, users with different permission levels are able to create posts and respond to posts with comments. Forum topics are a node type and all users are able to create forum topics. However, as explained later, only specific roles can automatically publish their topics.
 
-*Mark posts as sticky* 
+*Mark posts as sticky*  
 We wanted to be able to highlight more relevant or timely topics by having them stick to the top of topic listing pages. This is easily achieved by marking a post as sticky. In fact, this is one of the few times when I have been able to easily explain to end users what the sticky checkbox means. 
 
-*Organize posts by taxonomy* 
+*Organize posts by taxonomy*   
 AASHE has an existing classification for campus sustainability that is used within the site and is based on the [Sustainability Tracking And Reporting System (STARS)][4]. We were able to easily create a Forum vocabulary with these terms. I used the helpful [Taxonomy CSV][5] and [Taxonomy XML][6] modules to export and import taxonomies between our development, staging, and live sites. One problem that we ran into was having a forum that could be organized by multiple taxonomies, which was an initial requirement. Although you can assign new taxonomies to forum topic posts, the forum itself can only be organized by one vocabulary. This is a limitation that I wasn’t able to get around. 
 
 *RSS feed for each forum* 
 Since the forum is organized by taxonomy terms, there is an automatic RSS feed for each forum. Having separate RSS Feeds was one of our earliest requirements because someone interested in the Curriculum forum is not necessarily interested in the Waste one. One slight problem we’ve run into is that our users don’t expect the RSS icon to be for a different set of posts when you are on a taxonomy page. We are going to add some help text to further explain this later on. 
 
-*Anonymous block to encourage users to sign-in* 
+*Anonymous block to encourage users to sign-in*  
 When we first tested the forum, we noticed that users were confused about how to sign in from the forums main page. To get around this, I created a block only shown to anonymous users encouraging logging in. 
 
 *Individual topic areas can be co-branded with partner associations. For example, the ACUPCC sponsors the [Climate Forum][7]*  
@@ -43,28 +43,28 @@ While there’s no section-sponsor setup out of the box with the forum module, i
   Adding Contributed Modules
 </h2>
 
-*Look and feel can be customized to match main AASHE website* 
+*Look and feel can be customized to match main AASHE website*  
 Once I started designing the forum, I quickly found that it was challenging to make the look-and-feel of the forum match the AASHE website. However, the [Advanced Forum][8] module provides a number of presets themes that make theming a lot easier. I used the Naked theme and was able to create a forum design in a few hours. 
 
-*Ability for users to sign up for email notification (by email or RSS) of replies* 
+*Ability for users to sign up for email notification (by email or RSS) of replies*  
 While the RSS functionality is taken care of by the core forum module, email subscriptions were more complicated to implement. I ended up using the [Notifications][9] module, [Token][10] module, [Messaging][11], and [Mimemail][12]. Notifications and Messaging made it easy to create templates that are sent out in response to certain events such as a new comment being posted. Users are automatically sent HTML emails (using Mimemail) and can subscribe by taxonomy term, author name, content type, and thread to email notifications. However, we’ve had a bit of difficulty communicating this functionality to our users. 
 
-*Sponsors recognized in random order on the main forums page* 
+*Sponsors recognized in random order on the main forums page*  
 To make sure that our forum had an active base of users, we sought out sponsors. In exchange for promoting the forums, sponsor logos are presented in random order on the right side of the page and listed in text alphabetically at the bottom of each forum page. This is all accomplished using [Views][13], [Imagecache][14], [Link][15], [FileField][16] and [ImageField][17]. I set up a sponsor node type where users can enter the sponsor name, a link to the sponsor website, and upload an image that is resized to 125 pixels wide. The list of sponsor images on the right is a Views block that displays in random order and the text list on the bottom of the page is a different Views block. 
 
-*AASHE staff logo to accompany staff posts, AASHE member logo accompanies member posts* 
+*AASHE staff logo to accompany staff posts, AASHE member logo accompanies member posts*  
 We were able to easily use the [User Badges][18] module to create logos to accompany member and staff posts. The goal of this is to draw attention to “official” answers in the forum and to also highlight our members. 
 
-*When non-members submit posts, they are not published and the AASHE moderators receive an automatic notification.* 
+*When non-members submit posts, they are not published and the AASHE moderators receive an automatic notification.*  
 It has been hard to figure out how to best moderate forum posts and avoid having the forum overrun with spam and posts that violate our terms of use. Our current solution is to post any content from members without review but save as draft any posts from non-members. To accomplish this, I set up a rule using the [Rules module][19] that emails a notification to our staff moderator when we have a new non-member post or comment and also sets it as a draft. In the future, I am going to write a module that assigns all .edu email addresses a role and that role can automatically post to the forum without review. 
 
-*The “Real Name” and not the username should show up everywhere for users* 
+*The “Real Name” and not the username should show up everywhere for users*  
 We don’t ever use usernames on the AASHE website and instead override all names using the RealName module. Without any modifications, the [RealName module][20] replaced all of our usernames (set with theme_username) with our profile First + Last name combination. 
 
-*Users can “quote” one another in forum threads* 
+*Users can “quote” one another in forum threads*  
 One features that our staff really liked on other forums was the ability to quote other posts. Using the [Quote module][21], we were able to add this button and functionality. However, since Quote doesn’t use theme_username, we had to write a [small patch][22] to the module. 
 
-*Display recent posts categorized by relevant taxonomy term throughout the site*
+*Display recent posts categorized by relevant taxonomy term throughout the site*  
 We wanted to be able to have relevant posts show up depending on where a user is within our site. For example, if they are looking at a Climate resource, they would see relevant Climate posts in a list block. This was implemented on our development site using Views and arguments. However, it is not implemented on the live site yet. 
 
 <h2 id="deploying">
