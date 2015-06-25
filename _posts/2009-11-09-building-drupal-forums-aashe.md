@@ -9,7 +9,6 @@ published: true
 ---
 
 
-
 The idea of building a Campus Sustainability Forum has been kicking around [my organization][1] for years. When the organization was choosing a CMS about three years ago, one of the major reasons we went with Drupal was the forum integration. 
 
 The goal of the [AASHE Campus Sustainability Forums][2] is to provide a central place where those interested in campus sustainability can ask and answer questions, share knowledge and expertise, and contribute to the growing body of knowledge on campus sustainability.
