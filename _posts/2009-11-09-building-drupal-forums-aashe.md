@@ -67,9 +67,7 @@ One features that our staff really liked on other forums was the ability to quot
 *Display recent posts categorized by relevant taxonomy term throughout the site* <br />  
 We wanted to be able to have relevant posts show up depending on where a user is within our site. For example, if they are looking at a Climate resource, they would see relevant Climate posts in a list block. This was implemented on our development site using Views and arguments. However, it is not implemented on the live site yet. 
 
-<h2 id="deploying">
-  Deploying
-</h2>
+<h2 id="deploying">Deploying</h2>
 
 One of the trickiest parts of deploying our forum was that so much of the functionality was tied up in contributed modules and database code. I ended up using the Features module to bundle together the required modules, Views, content types, and imagecache presets from development to staging to live site. Feature alone didn’t capture all of the settings, so I also practiced my live migration by first moving from our development to staging site and writing down all of the little configuration settings and then using that list to move to the live site. Please let me know if you are interested in having a copy of the feature. 
 
