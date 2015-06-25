@@ -64,7 +64,7 @@ We don’t ever use usernames on the AASHE website and instead override all name
 *Users can “quote” one another in forum threads*<br /> 
 One features that our staff really liked on other forums was the ability to quote other posts. Using the [Quote module][21], we were able to add this button and functionality. However, since Quote doesn’t use theme_username, we had to write a [small patch][22] to the module. 
 
-*Display recent posts categorized by relevant taxonomy term throughout the site* <br />  
+*Display recent posts categorized by relevant taxonomy term throughout the site*<br /> 
 We wanted to be able to have relevant posts show up depending on where a user is within our site. For example, if they are looking at a Climate resource, they would see relevant Climate posts in a list block. This was implemented on our development site using Views and arguments. However, it is not implemented on the live site yet. 
 
 <h2 id="deploying">Deploying</h2>
