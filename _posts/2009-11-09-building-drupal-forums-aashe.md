@@ -25,8 +25,7 @@ Before we started work on the forums, my co-workers scoured other web forums aro
 *Create forum posts and Respond to forum posts via comments* <br /> 
 Using the core Forum module, users with different permission levels are able to create posts and respond to posts with comments. Forum topics are a node type and all users are able to create forum topics. However, as explained later, only specific roles can automatically publish their topics.
 
-*Mark posts as sticky*  
-<br /> 
+<h4>Mark posts as sticky</h4>
 We wanted to be able to highlight more relevant or timely topics by having them stick to the top of topic listing pages. This is easily achieved by marking a post as sticky. In fact, this is one of the few times when I have been able to easily explain to end users what the sticky checkbox means. 
 
 *Organize posts by taxonomy*   
