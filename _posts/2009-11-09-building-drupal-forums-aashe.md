@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building Drupal Forums at AASHE
-date: {}
+date: 2009-11-09 06:26:12
 category: drupal
 redirect_from: 
   - "/building-drupal-forums-aashe/"
