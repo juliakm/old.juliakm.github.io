@@ -9,6 +9,7 @@ published: true
 ---
 
 
+
 The idea of building a Campus Sustainability Forum has been kicking around [my organization][1] for years. When the organization was choosing a CMS about three years ago, one of the major reasons we went with Drupal was the forum integration. 
 
 The goal of the [AASHE Campus Sustainability Forums][2] is to provide a central place where those interested in campus sustainability can ask and answer questions, share knowledge and expertise, and contribute to the growing body of knowledge on campus sustainability.
@@ -24,10 +25,12 @@ Before we started work on the forums, my co-workers scoured other web forums aro
 *Create forum posts and Respond to forum posts via comments* <br /> 
 Using the core Forum module, users with different permission levels are able to create posts and respond to posts with comments. Forum topics are a node type and all users are able to create forum topics. However, as explained later, only specific roles can automatically publish their topics.
 
-*Mark posts as sticky*  <br /> 
+*Mark posts as sticky*  
+<br /> 
 We wanted to be able to highlight more relevant or timely topics by having them stick to the top of topic listing pages. This is easily achieved by marking a post as sticky. In fact, this is one of the few times when I have been able to easily explain to end users what the sticky checkbox means. 
 
-*Organize posts by taxonomy*   <br /> 
+*Organize posts by taxonomy*   
+<br /> 
 AASHE has an existing classification for campus sustainability that is used within the site and is based on the [Sustainability Tracking And Reporting System (STARS)][4]. We were able to easily create a Forum vocabulary with these terms. I used the helpful [Taxonomy CSV][5] and [Taxonomy XML][6] modules to export and import taxonomies between our development, staging, and live sites. One problem that we ran into was having a forum that could be organized by multiple taxonomies, which was an initial requirement. Although you can assign new taxonomies to forum topic posts, the forum itself can only be organized by one vocabulary. This is a limitation that I wasn’t able to get around. 
 
 *RSS feed for each forum* <br /> 
