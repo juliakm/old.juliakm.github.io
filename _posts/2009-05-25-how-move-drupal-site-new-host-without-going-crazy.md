@@ -22,10 +22,12 @@ Some Drupal modules require PHP 5.x. I’ve run into problems before when I move
 To check your PHP version, log into your new and old servers separately via ssh and run the following:
 
 ` php -v ` 
+
 *Helpful advice from Scor in the comments:* The PHP CLI is not always installed and php -v might not work, or if it does it might be a different version than the one Apache runs. In any case that does not mean you cannot use Drupal on the server. Another way to check these things is to try to install a dummy Drupal core site and see if it works ok. 
 To check what version of MySQL you are using, open MySQL via the shell on your computer and type:
 
 `status` 
+
 If you are running different versions of PHP and/or MySQL on your new and old servers, be sure to check for any incompatibilities with your modules. Any module that requires PHP 5.x should say so in the README.txt document. I highly recommend making sure that your new host uses PHP 5.x before switching. 
 
 You can also check the PHP and MySQL versions of your old site via Drupal on the status page at admin/reports/status.
@@ -67,11 +69,13 @@ If you are not familiar with the command-line, you can download all of your file
 To use scp, you first need to know where your files are on your current site. Log into your old site using ssh or ftp and get the path to your web directory from the server root. Once you are in the correct directory, enter:
 
 `pwd` 
+
 Copy the output to somewhere you’ll be able to find again. 
 
 Next, log into your new host and go to the directory where you want the new files to go. The following worked for me:
 
 `scp -rp myusername@www.myoldhost.com:[/home/myusername/www.myoldhost.com/public_html]/* .` 
+
 The part after the colon, in brackets, is the path you just copied on your old site. <u>The brackets are just here as an example, do not include them when you scp.</u>
 
 This command copies everything in the public_html folder on my old host to the current folder of my new host. the -p flag preserves permissions and the -r flag recursively copies so that you get the content of your folders.
@@ -96,6 +100,7 @@ I have a Mac and edit my hosts file in “private/etc/hosts.” To test it, I ad
 </pre>
 
 The hosts file is a little trickier to find on Windows machines.This Wikipedia article gives a list of host file locations for different operating systems.</p> 
+
 *J: Test your site locally*
 
 Once you have your new site showing up using your hosts fix, make sure to test your new site. I recommend trying the following: 
@@ -117,6 +122,7 @@ A few problems that I’ve run into before are:
 For the GD Library, you’ll have to talk to your new hosting provider. For the files directory, go to the directory above your files directory and enter via command-line: 
 
 `chmod -R 755 files` 
+
 If you are confused about the “chmod” command, search for it on Drupal.org. There is a wealth of information available there. 
 
 *L: Undo hosts file changes*
@@ -140,9 +146,11 @@ Your new hosting company should have provided you with nameservers that correspo
 It takes awhile for DNS changes to propagate. You’ll have to wait at least 15 minutes for the change to take place. Depending on where you live in the country and your registrar, it could take even longer. You can check and see if the switch has happened by typing the following into the command-line:
 
 `host mysite.com` 
+
 Next, copy the IP address. Then do: 
 
 `whois IPAddress ` 
+
 You can also check for whois information online using [DomainTools][5]. 
 
 <h3 id="pat_yourself_on_the_back">
