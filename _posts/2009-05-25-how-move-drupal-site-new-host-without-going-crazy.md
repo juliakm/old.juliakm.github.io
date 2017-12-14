@@ -21,7 +21,7 @@ Some Drupal modules require PHP 5.x. I’ve run into problems before when I move
 
 To check your PHP version, log into your new and old servers separately via ssh and run the following:
 
-` php -v ` 
+`php -v` 
 
 *Helpful advice from Scor in the comments:* The PHP CLI is not always installed and php -v might not work, or if it does it might be a different version than the one Apache runs. In any case that does not mean you cannot use Drupal on the server. Another way to check these things is to try to install a dummy Drupal core site and see if it works ok. 
 To check what version of MySQL you are using, open MySQL via the shell on your computer and type:
